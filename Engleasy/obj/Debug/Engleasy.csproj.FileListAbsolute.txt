@@ -12,3 +12,17 @@ C:\Users\Percer\source\repos\Engleasy\Engleasy\obj\Debug\Engleasy.pdb
 C:\Users\Percer\source\repos\Engleasy\Engleasy\obj\Debug\Engleasy.telaRank.resources
 C:\Users\Percer\source\repos\Engleasy\Engleasy\obj\Debug\Engleasy.telaRegistro.resources
 C:\Users\Percer\source\repos\Engleasy\Engleasy\obj\Debug\Engleasy.telaJogo.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\bin\Debug\Engleasy.exe.config
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\bin\Debug\Engleasy.exe
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\bin\Debug\Engleasy.pdb
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.csprojAssemblyReference.cache
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.telaCreditos.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.telaInicial.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.Properties.Resources.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.telaJogo.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.telaRank.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.telaRegistro.resources
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.GenerateResource.cache
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CoreCompileInputs.cache
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.exe
+C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.pdb

@@ -5,6 +5,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Engleasy
 {
@@ -36,22 +37,22 @@ namespace Engleasy
             posx = rnd.Next(0,590);
             */
             lado = rnd.Next(1, 5);
-            if (lado == 1)
+            if (lado == 1) //esquerdo
             {
                 posy = rnd.Next(0, 900);
                 posx = rnd.Next(0);
             }
-            if (lado == 2)
+            if (lado == 2) //superior
             {
                 posy = rnd.Next(0);
                 posx = rnd.Next(900);
             }
-            if (lado == 3)
+            if (lado == 3)//direito
             {
                 posy = rnd.Next(0, 900);
                 posx = rnd.Next(590, 590);
             }
-            if (lado == 4)
+            if (lado == 4)//baixo
             {
                 posy = rnd.Next(880, 880);
                 posx = rnd.Next(0, 590);
@@ -63,9 +64,42 @@ namespace Engleasy
             pb.Size = new Size(27, 33);
             pb.Image = Properties.Resources.soldier;
 
-
+           /* while (pb.Location.Y < 406 && pb.Location.X < 289)
+            {
+              
+                pb = this.move(pb, lado);
+                Thread.Sleep(1000);
+            }*/
+                
 
         }
+
+
+        public PictureBox move(PictureBox pb)
+        {
+           
+            //406; 289
+                
+          
+                    if (pb.Location.Y < 406 )
+                    {
+                        pb.Location = new Point(pb.Location.Y + 5, pb.Location.X);
+                    }
+                    if (pb.Location.X < 289)
+                    {
+                        pb.Location = new Point(pb.Location.Y, pb.Location.X +5);
+                    }
+                    if (pb.Location.Y > 406)
+                    {
+                        pb.Location = new Point(pb.Location.Y - 5, pb.Location.X);
+                    }
+                    if (pb.Location.X > 289)
+                    {
+                        pb.Location = new Point(pb.Location.Y, pb.Location.X - 5);
+                    }
+
+            return pb;
+        }   
     }
 
 
