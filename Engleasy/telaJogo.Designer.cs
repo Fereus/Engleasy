@@ -34,6 +34,7 @@
             this.btn_gerador = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textDebug = new System.Windows.Forms.TextBox();
+            this.btnMover = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,11 +47,10 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btn_gerador
             // 
-            this.btn_gerador.Location = new System.Drawing.Point(417, 461);
+            this.btn_gerador.Location = new System.Drawing.Point(326, 402);
             this.btn_gerador.Name = "btn_gerador";
             this.btn_gerador.Size = new System.Drawing.Size(89, 36);
             this.btn_gerador.TabIndex = 1;
@@ -61,7 +61,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 200;
+            this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // textDebug
@@ -71,6 +71,16 @@
             this.textDebug.Size = new System.Drawing.Size(337, 20);
             this.textDebug.TabIndex = 2;
             // 
+            // btnMover
+            // 
+            this.btnMover.Location = new System.Drawing.Point(459, 402);
+            this.btnMover.Name = "btnMover";
+            this.btnMover.Size = new System.Drawing.Size(109, 36);
+            this.btnMover.TabIndex = 3;
+            this.btnMover.Text = "Mover Inimigo";
+            this.btnMover.UseVisualStyleBackColor = true;
+            this.btnMover.Click += new System.EventHandler(this.button1_Click);
+            // 
             // telaJogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,12 +88,12 @@
             this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(896, 620);
+            this.Controls.Add(this.btnMover);
             this.Controls.Add(this.textDebug);
             this.Controls.Add(this.btn_gerador);
             this.Controls.Add(this.pictureBox1);
             this.Name = "telaJogo";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.telaJogo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -96,5 +106,6 @@
         private System.Windows.Forms.Button btn_gerador;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textDebug;
+        private System.Windows.Forms.Button btnMover;
     }
 }

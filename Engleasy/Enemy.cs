@@ -5,7 +5,6 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Threading.Tasks;
-using System.Threading;
 
 namespace Engleasy
 {
@@ -15,6 +14,8 @@ namespace Engleasy
         public int lado = 0, posy = 0 , posx = 0;
 
         Random rnd = new Random();
+
+
 
         public Enemy()
         {  /*CIMA
@@ -37,22 +38,22 @@ namespace Engleasy
             posx = rnd.Next(0,590);
             */
             lado = rnd.Next(1, 5);
-            if (lado == 1) //esquerdo
+            if (lado == 1)
             {
                 posy = rnd.Next(0, 900);
                 posx = rnd.Next(0);
             }
-            if (lado == 2) //superior
+            if (lado == 2)
             {
                 posy = rnd.Next(0);
                 posx = rnd.Next(900);
             }
-            if (lado == 3)//direito
+            if (lado == 3)
             {
                 posy = rnd.Next(0, 900);
                 posx = rnd.Next(590, 590);
             }
-            if (lado == 4)//baixo
+            if (lado == 4)
             {
                 posy = rnd.Next(880, 880);
                 posx = rnd.Next(0, 590);
@@ -63,43 +64,11 @@ namespace Engleasy
             pb.Location = new Point(posy, posx);
             pb.Size = new Size(27, 33);
             pb.Image = Properties.Resources.soldier;
-
-           /* while (pb.Location.Y < 406 && pb.Location.X < 289)
-            {
-              
-                pb = this.move(pb, lado);
-                Thread.Sleep(1000);
-            }*/
-                
-
         }
-
-
-        public PictureBox move(PictureBox pb)
+        void moveTo()
         {
-           
-            //406; 289
-                
-          
-                    if (pb.Location.Y < 406 )
-                    {
-                        pb.Location = new Point(pb.Location.Y + 5, pb.Location.X);
-                    }
-                    if (pb.Location.X < 289)
-                    {
-                        pb.Location = new Point(pb.Location.Y, pb.Location.X +5);
-                    }
-                    if (pb.Location.Y > 406)
-                    {
-                        pb.Location = new Point(pb.Location.Y - 5, pb.Location.X);
-                    }
-                    if (pb.Location.X > 289)
-                    {
-                        pb.Location = new Point(pb.Location.Y, pb.Location.X - 5);
-                    }
-
-            return pb;
-        }   
+            pb.Location = new Point(posy+30, posx+30);
+        }
     }
 
 
