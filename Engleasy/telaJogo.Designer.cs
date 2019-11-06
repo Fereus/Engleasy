@@ -35,6 +35,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textDebug = new System.Windows.Forms.TextBox();
             this.btnMover = new System.Windows.Forms.Button();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 10;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // textDebug
@@ -80,6 +81,12 @@
             this.btnMover.Text = "Mover Inimigo";
             this.btnMover.UseVisualStyleBackColor = true;
             this.btnMover.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Interval = 1000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // telaJogo
             // 
@@ -107,5 +114,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textDebug;
         private System.Windows.Forms.Button btnMover;
+        private System.Windows.Forms.Timer timer2;
     }
 }
