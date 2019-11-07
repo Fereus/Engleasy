@@ -36,6 +36,7 @@
             this.textDebug = new System.Windows.Forms.TextBox();
             this.btnMover = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.tbox_Round = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,19 +56,18 @@
             this.btn_gerador.Name = "btn_gerador";
             this.btn_gerador.Size = new System.Drawing.Size(89, 36);
             this.btn_gerador.TabIndex = 1;
-            this.btn_gerador.Text = "Gerar Enemy";
+            this.btn_gerador.Text = "Deletar Inimigo";
             this.btn_gerador.UseVisualStyleBackColor = true;
             this.btn_gerador.Click += new System.EventHandler(this.btn_gerador_Click);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // textDebug
             // 
-            this.textDebug.Location = new System.Drawing.Point(311, 355);
+            this.textDebug.Location = new System.Drawing.Point(290, 341);
             this.textDebug.Name = "textDebug";
             this.textDebug.Size = new System.Drawing.Size(337, 20);
             this.textDebug.TabIndex = 2;
@@ -78,15 +78,23 @@
             this.btnMover.Name = "btnMover";
             this.btnMover.Size = new System.Drawing.Size(109, 36);
             this.btnMover.TabIndex = 3;
-            this.btnMover.Text = "Mover Inimigo";
+            this.btnMover.Text = "Proximo Round";
             this.btnMover.UseVisualStyleBackColor = true;
             this.btnMover.Click += new System.EventHandler(this.button1_Click);
             // 
             // timer2
             // 
-            this.timer2.Enabled = true;
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // tbox_Round
+            // 
+            this.tbox_Round.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tbox_Round.Location = new System.Drawing.Point(315, 242);
+            this.tbox_Round.Name = "tbox_Round";
+            this.tbox_Round.Size = new System.Drawing.Size(100, 20);
+            this.tbox_Round.TabIndex = 4;
+            this.tbox_Round.Text = "Round: 0";
             // 
             // telaJogo
             // 
@@ -95,6 +103,7 @@
             this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(896, 620);
+            this.Controls.Add(this.tbox_Round);
             this.Controls.Add(this.btnMover);
             this.Controls.Add(this.textDebug);
             this.Controls.Add(this.btn_gerador);
@@ -115,5 +124,6 @@
         private System.Windows.Forms.TextBox textDebug;
         private System.Windows.Forms.Button btnMover;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.TextBox tbox_Round;
     }
 }

@@ -11,8 +11,8 @@ namespace Engleasy
     public class Enemy
     {
         public PictureBox pb;
-        public int lado = 0, posy = 0 , posx = 0;
-
+        public int lado = 0, posy = 0 , posx = 0, posyrnd=0, posxrnd=0;
+        public bool criado = false;
         Random rnd = new Random();
 
 
@@ -64,6 +64,7 @@ namespace Engleasy
             pb.Location = new Point(posy, posx);
             pb.Size = new Size(27, 33);
             pb.Image = Properties.Resources.soldier;
+            int place = lado;
         }
         public void moveTo()
         {
