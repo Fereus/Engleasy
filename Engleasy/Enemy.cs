@@ -15,7 +15,7 @@ namespace Engleasy
         public bool criado = false;
         Random rnd = new Random();
 
-
+        int rrrrr;
 
         public Enemy()
         {  /*CIMA
