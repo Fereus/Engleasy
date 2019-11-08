@@ -64,12 +64,9 @@ namespace Engleasy
             pb.Location = new Point(posy, posx);
             pb.Size = new Size(27, 33);
             pb.Image = Properties.Resources.soldier;
-            int place = lado;
+           
         }
-        public void moveTo()
-        {
-            pb.Location = new Point(posy+30, posx+30);
-        }
+        
     }
 
 
