@@ -37,6 +37,7 @@
             this.btnMover = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.tbox_Round = new System.Windows.Forms.TextBox();
+            this.pbVida = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,7 +64,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 5000;
+            this.timer1.Interval = 4000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // textDebug
@@ -72,6 +73,7 @@
             this.textDebug.Name = "textDebug";
             this.textDebug.Size = new System.Drawing.Size(337, 20);
             this.textDebug.TabIndex = 2;
+            this.textDebug.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textDebug_KeyUp);
             // 
             // btnMover
             // 
@@ -98,6 +100,13 @@
             this.tbox_Round.TabIndex = 4;
             this.tbox_Round.Text = "Round: 0";
             // 
+            // pbVida
+            // 
+            this.pbVida.Location = new System.Drawing.Point(68, 24);
+            this.pbVida.Name = "pbVida";
+            this.pbVida.Size = new System.Drawing.Size(146, 23);
+            this.pbVida.TabIndex = 5;
+            // 
             // telaJogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +114,7 @@
             this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(896, 620);
+            this.Controls.Add(this.pbVida);
             this.Controls.Add(this.tbox_Round);
             this.Controls.Add(this.btnMover);
             this.Controls.Add(this.textDebug);
@@ -127,5 +137,6 @@
         private System.Windows.Forms.Button btnMover;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.TextBox tbox_Round;
+        private System.Windows.Forms.ProgressBar pbVida;
     }
 }

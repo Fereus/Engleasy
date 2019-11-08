@@ -14,11 +14,12 @@ namespace Engleasy
     public partial class telaJogo : Form
     {
 
-        int posyrnd=0, posxrnd=0, i=0, r=0, x=0, contador = 2;
+        int posyrnd = 0, posxrnd = 0, i = 0, r = 0, x = 0, contador = 2, vida = 100;
         int round = 0;
         Enemy[] inimigo = new Enemy[50];
         Random rnd = new Random();
         bool stop = true;
+
         //Controls.Add(inimigo[i].pb);
 
 
@@ -28,31 +29,9 @@ namespace Engleasy
             for (int i = 0; i < 50; i++)
             {
                 inimigo[i] = new Enemy();
-                
-                
+
             }
-            /*
-            inimigo[0] = new Enemy();
-            inimigo[1] = new Enemy();
-            inimigo[2] = new Enemy();
-            inimigo[3] = new Enemy();
-            inimigo[4] = new Enemy();
-            inimigo[5] = new Enemy();
-            inimigo[6] = new Enemy();
-            inimigo[7] = new Enemy();
-            inimigo[8] = new Enemy();
-            inimigo[9] = new Enemy();
-            inimigo[10] = new Enemy();
-            inimigo[11] = new Enemy();
-            inimigo[12] = new Enemy();
-            inimigo[13] = new Enemy();
-            inimigo[14] = new Enemy();
-            inimigo[15] = new Enemy();
-            inimigo[16] = new Enemy();
-            inimigo[17] = new Enemy();
-            inimigo[18] = new Enemy();
-            inimigo[19] = new Enemy();
-            inimigo[20] = new Enemy();*/
+            pbVida.Value = 100;
         }
 
         public void btn_gerador_Click(object sender, EventArgs e)
@@ -87,7 +66,6 @@ namespace Engleasy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            round = round + 1;
             //PROXIMO ROUND
             //tbox_Round.Text = ("Round :" + round);
             //Controls.Add(inimigo[round].pb);
@@ -111,12 +89,10 @@ namespace Engleasy
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-      
-
             for (i = 0; i < r; i++)
             {
                   Controls.Add(inimigo[i].pb);
+                  Controls.Add(inimigo[i].nome);
                  if (inimigo[i].criado == false) {
                     inimigo[i].lado = rnd.Next(1, 5);
 
@@ -124,28 +100,25 @@ namespace Engleasy
                     if (inimigo[i].lado == 1)
                     {
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
+                        inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X-5, inimigo[i].pb.Location.Y-15);
                     }
                     if (inimigo[i].lado == 2)
                     {
                         inimigo[i].pb.Location = new Point(0, rnd.Next(900));
+                        inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 3)
                     {
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
+                        inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 4)
                     {
                         inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
+                        inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
 
                     inimigo[i].criado = true;
-
-                    
-
-                    //inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
-                    //inimigo[i].pb.Location = new Point(0, rnd.Next(900));
-                    //inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
-                    //inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
                 }
             }
 
@@ -157,64 +130,7 @@ namespace Engleasy
 
         }
 
-            /*
-            if (round == 0)
-            { 
-             Controls.Add(inimigo[round].pb);
-                if (inimigo[round].criado == false) { 
-                    inimigo[round].posy = rnd.Next(0, 900);
-                    inimigo[round].posx = rnd.Next(0);
-                    inimigo[round].criado = true;
-            }
-            //inimigo[round].pb.Location = new Point(inimigo[round].posy+5, inimigo[round].posx+5);
-                inimigo[round].pb.Location = new Point(inimigo[round].pb.Location.X + 3, inimigo[round].pb.Location.Y + 3);
-            }
-            else if (round == 1)
-            {
-                
-             Controls.Add(inimigo[round].pb);
-                if (inimigo[round].criado == false)
-                {
-                 inimigo[round].posy = rnd.Next(0);
-                 inimigo[round].posx = rnd.Next(900);
-                 inimigo[round].criado = true;
-                }
-                inimigo[round].pb.Location = new Point(inimigo[round].pb.Location.X + 10, inimigo[round].pb.Location.Y + 10);
-            }*/
-            /*
-            else if (round == 2)
-            {
-                Controls.Add(inimigo[round].pb);
-                inimigo[round].lado = rnd.Next(1, 5);
-                inimigo[0].pb.Location = new Point(inimigo[0].pb.Location.X + 3, inimigo[0].pb.Location.Y + 3);
-                inimigo[1].pb.Location = new Point(inimigo[1].pb.Location.X + 3, inimigo[1].pb.Location.Y + 3);
-                inimigo[round].pb.Location = new Point(inimigo[round].pb.Location.X + 3, inimigo[round].pb.Location.Y + 3);
-            }
-            else if (round == 3)
-            {
-                Controls.Add(inimigo[round].pb);
-                inimigo[round].lado = rnd.Next(1, 5);
-                inimigo[0].pb.Location = new Point(inimigo[0].pb.Location.X + 3, inimigo[0].pb.Location.Y + 3);
-                inimigo[1].pb.Location = new Point(inimigo[1].pb.Location.X + 3, inimigo[1].pb.Location.Y + 3);
-                inimigo[2].pb.Location = new Point(inimigo[2].pb.Location.X + 3, inimigo[2].pb.Location.Y + 3);
-                inimigo[round].pb.Location = new Point(inimigo[round].pb.Location.X + 3, inimigo[round].pb.Location.Y + 3);
-            }
-            else if (round == 4)
-            {
-                Controls.Add(inimigo[round].pb);
-                inimigo[round].lado = rnd.Next(1, 5);
-                inimigo[0].pb.Location = new Point(inimigo[0].pb.Location.X + 3, inimigo[0].pb.Location.Y + 3);
-                inimigo[1].pb.Location = new Point(inimigo[1].pb.Location.X + 3, inimigo[1].pb.Location.Y + 3);
-                inimigo[2].pb.Location = new Point(inimigo[2].pb.Location.X + 3, inimigo[2].pb.Location.Y + 3);
-                inimigo[3].pb.Location = new Point(inimigo[3].pb.Location.X + 3, inimigo[3].pb.Location.Y + 3);
-                inimigo[round].pb.Location = new Point(inimigo[round].pb.Location.X + 3, inimigo[round].pb.Location.Y + 3);
-            }*/
 
-            /*round = round + 1;
-            if (round == 5)
-            {
-                round = 0;
-            }*/
         
 
 
@@ -228,33 +144,50 @@ namespace Engleasy
                 {
                     if ((x.pb.Location.X < 406) && (x.pb.Location.Y > 289))
                         x.pb.Location = new Point(x.pb.Location.X + 1, x.pb.Location.Y-1);
+                        x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y-15);
+
 
                     if ((x.pb.Location.X > 406) && (x.pb.Location.Y < 289))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y + 1);
+                        x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
                     if ((x.pb.Location.X > 406) && (x.pb.Location.Y > 289))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y- 1);
+                     x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
                     if ((x.pb.Location.X < 406) && (x.pb.Location.Y < 289))
                         x.pb.Location = new Point(x.pb.Location.X + 1, x.pb.Location.Y + 1);
+                      x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
                     if ((x.pb.Location.X == 406) && (x.pb.Location.Y > 289))
                         x.pb.Location = new Point(x.pb.Location.X, x.pb.Location.Y - 1);
+                       x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
                     if ((x.pb.Location.X == 406) && (x.pb.Location.Y < 289))
                         x.pb.Location = new Point(x.pb.Location.X, x.pb.Location.Y + 1);
+                       x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
                     if ((x.pb.Location.X < 406) && (x.pb.Location.Y == 289))
                         x.pb.Location = new Point(x.pb.Location.X +1, x.pb.Location.Y);
+                       x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
                     if ((x.pb.Location.X > 406) && (x.pb.Location.Y == 289))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y);
+                       x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-
-
-
+                    if ((x.pb.Location.X == 406) && (x.pb.Location.Y == 289))
+                        pbVida.Value = vida - 20;
                 }
+
+                if ((x.pb.Location.X == 406) && (x.pb.Location.Y == 289))
+                { pbVida.Value = vida - 20; }
+
             }
+        }
+        private void textDebug_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                tbox_Round.Text = ("deu certo");
         }
     }
 

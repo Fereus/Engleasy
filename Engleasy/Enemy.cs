@@ -11,11 +11,12 @@ namespace Engleasy
     public class Enemy
     {
         public PictureBox pb;
+        public Label nome;
         public int lado = 0, posy = 0 , posx = 0, posyrnd=0, posxrnd=0;
         public bool criado = false;
         Random rnd = new Random();
 
-        int rrrrr;
+        public string word="sword";
 
         public Enemy()
         {  /*CIMA
@@ -64,7 +65,10 @@ namespace Engleasy
             pb.Location = new Point(posy, posx);
             pb.Size = new Size(27, 33);
             pb.Image = Properties.Resources.soldier;
-           
+            nome = new Label();
+            nome.Location = new Point(posy, posx);
+            nome.Size = new Size(30, 40);
+            nome.Text = "Teste";
         }
         
     }
