@@ -16,9 +16,24 @@ namespace Engleasy
 
         int posyrnd = 0, posxrnd = 0, i = 0, r = 0, x = 0, contador = 2, vida = 100;
         int round = 0;
-        Enemy[] inimigo = new Enemy[50];
+        Enemy[] inimigo = new Enemy[15];
         Random rnd = new Random();
         bool stop = true;
+
+        private void lbn_Pontos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void telaJogo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
 
         //Controls.Add(inimigo[i].pb);
 
@@ -26,7 +41,7 @@ namespace Engleasy
         public telaJogo()
         {
             InitializeComponent();
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 15; i++)
             {
                 inimigo[i] = new Enemy();
 
@@ -99,21 +114,25 @@ namespace Engleasy
 
                     if (inimigo[i].lado == 1)
                     {
+                        inimigo[i].pb.Image = Properties.Resources.solbaixo;
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X-5, inimigo[i].pb.Location.Y-15);
                     }
                     if (inimigo[i].lado == 2)
                     {
+                        inimigo[i].pb.Image = Properties.Resources.soldireita;
                         inimigo[i].pb.Location = new Point(0, rnd.Next(900));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 3)
                     {
+                        inimigo[i].pb.Image = Properties.Resources.solcima;
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 4)
                     {
+                        inimigo[i].pb.Image = Properties.Resources.solesquerda;
                         inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
@@ -123,7 +142,7 @@ namespace Engleasy
             }
 
             r++;
-            if (r == 50)
+            if (r == 15)
             {
                 r = 0;
             }
@@ -145,7 +164,6 @@ namespace Engleasy
                     if ((x.pb.Location.X < 406) && (x.pb.Location.Y > 289))
                         x.pb.Location = new Point(x.pb.Location.X + 1, x.pb.Location.Y-1);
                         x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y-15);
-
 
                     if ((x.pb.Location.X > 406) && (x.pb.Location.Y < 289))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y + 1);
@@ -187,7 +205,32 @@ namespace Engleasy
         private void textDebug_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
-                tbox_Round.Text = ("deu certo");
+
+                for (i=0; i<15; i++)
+                {
+                    inimigo[i].lado = rnd.Next(1, 5);
+
+                 if (inimigo[i].lado == 1)
+                 {
+                    inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
+                    inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
+                 }
+                 if (inimigo[i].lado == 2)
+                 {
+                    inimigo[i].pb.Location = new Point(0, rnd.Next(900));
+                    inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
+                 }
+                 if (inimigo[i].lado == 3)
+                 {
+                    inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
+                    inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
+                 }
+                 if (inimigo[i].lado == 4)
+                 {
+                    inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
+                    inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
+                 }
+                }
         }
     }
 

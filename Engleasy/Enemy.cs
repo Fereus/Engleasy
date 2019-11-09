@@ -62,12 +62,13 @@ namespace Engleasy
 
 
             pb = new PictureBox();
+            pb.BackColor = Color.Transparent;
             pb.Location = new Point(posy, posx);
-            pb.Size = new Size(27, 33);
-            pb.Image = Properties.Resources.soldier;
+            pb.Size = new Size(32, 32);
+            pb.Image = Properties.Resources.solcima;
             nome = new Label();
             nome.Location = new Point(posy, posx);
-            nome.Size = new Size(30, 40);
+            nome.Size = new Size(40, 15);
             nome.Text = "Teste";
         }
         

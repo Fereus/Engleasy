@@ -123,5 +123,56 @@
   <ItemGroup>
     <None Include="Resources\tela_inicio.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soldadao.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solbaixo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solcima.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soldireita.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solesquerda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela inicial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\69d604ce2cbf28f299680c211c5c9f22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela rank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela creditos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4f89480b440278f7727ef678649c22c4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c40ef50844b6a4fa271596a07833cbe8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telagame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd272634d89f773268cc79d22868f805.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd272634d89f773268cc79d22868f8051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5cea09a0671775a8feb5c3eb9b679e43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela inicio final.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

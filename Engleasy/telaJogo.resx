@@ -117,24 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABsAAAAhCAIAAACnV0fJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAqRJREFUSEt9lLFqVEEUhvMSJihIIMLiBpIiGFzcELCIhY0mbLOSgCAoJKmEFGkN
-        QZBYWIiIz6AJWFpqZ7k2PoMPsX673+Tc2bn37uHnMnPm/787d3aZhXF7LbRXcjRV69rNzuL7z6fo6upT
-        IZqsJl+tGoi40eHZ/tb+5qPj7Xu764Xow9WWMlmVxDqu6CAGc6AVMZIoZzF4+PLBs9MnKKByPQRtiRLE
-        YOHz02ShwcnjAAmNqebiZCfECCumdtp+FqFyhUYwEYXmIoYwGSvkahFBospzjBcq8hzil7eryiPOhSfH
-        URWRco2YODcI8fevF+j53pIHLYtB7DTlpzWzRwIBja+WCC6IyAPVzJhnorQRFZn4QXIVh2gqUepfff7u
-        ot/rMfDDc7k7PxnhGQyHmlN+WjNEClOn2/lzsYdPFazoYwtzfnc0EE+21/59Px+NRl4zgVA2WYXFBhlj
-        5pnydSIm3imxd9RFjHPZZJUx0Cl/BlISWY49Gh7//ZqrTkzJ62ogUm6zYOVi1eOjUvK6ZuYrW3fR/eHO
-        webKHKg4PDiNpPy0KqIsTT7lilZO6YcnIokSRFq7rweHH495anIgl5MNScltpgI6IS4uL7kQa74gRBKP
-        +VDY8uCEGFbfyVSFVbedHBpOg64yrYgkuRG4ssJXJ0bHMMJPSk8islXDXjAHr466G30W1tZveycy+Pbz
-        UuVNPDjxkxIKB9pkj0J/XK7euHWnv/MUHx0y3mAM3nw4U3kTD078pMiKm+zRX4YJb86JblwxxlN0ciJZ
-        cem3Fsq/n5ezzNh3eHAeooHoOEX4SZFlLKr6h0eZj69wGs/oOE2ZrOYR/dgI2ymaKZNVA5HyKwyr6CBZ
-        9TvCau5SBDgjZbjeaazWBa5rfkdE2DxPO/OI4/F/S+gtiz/aW1gAAAAASUVORK5CYII=
-</value>
-  </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -142,6 +124,6 @@
     <value>104, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>31</value>
+    <value>39</value>
   </metadata>
 </root>

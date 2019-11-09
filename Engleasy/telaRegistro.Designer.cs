@@ -40,14 +40,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(153, 62);
+            this.textBox1.Location = new System.Drawing.Point(182, 28);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(193, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(153, 106);
+            this.textBox2.Location = new System.Drawing.Point(182, 61);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(193, 20);
             this.textBox2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(59, 58);
+            this.lblNome.Location = new System.Drawing.Point(96, 22);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(74, 25);
             this.lblNome.TabIndex = 3;
@@ -72,7 +72,7 @@
             // 
             this.lblSenha.AutoSize = true;
             this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(54, 101);
+            this.lblSenha.Location = new System.Drawing.Point(90, 61);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(80, 25);
             this.lblSenha.TabIndex = 4;
@@ -80,18 +80,18 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(76, 163);
+            this.btnRegistrar.Location = new System.Drawing.Point(180, 87);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(96, 39);
+            this.btnRegistrar.Size = new System.Drawing.Size(96, 48);
             this.btnRegistrar.TabIndex = 5;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // btnJogar2
             // 
-            this.btnJogar2.Location = new System.Drawing.Point(226, 163);
+            this.btnJogar2.Location = new System.Drawing.Point(282, 87);
             this.btnJogar2.Name = "btnJogar2";
-            this.btnJogar2.Size = new System.Drawing.Size(96, 39);
+            this.btnJogar2.Size = new System.Drawing.Size(93, 48);
             this.btnJogar2.TabIndex = 6;
             this.btnJogar2.Text = "Jogar";
             this.btnJogar2.UseVisualStyleBackColor = true;
@@ -101,6 +101,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Engleasy.Properties.Resources.registro;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(398, 245);
             this.Controls.Add(this.btnJogar2);
             this.Controls.Add(this.btnRegistrar);
@@ -109,6 +111,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "telaRegistro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

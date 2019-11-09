@@ -29,37 +29,30 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaJogo));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_gerador = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textDebug = new System.Windows.Forms.TextBox();
-            this.btnMover = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.tbox_Round = new System.Windows.Forms.TextBox();
             this.pbVida = new System.Windows.Forms.ProgressBar();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.lbn_Pontos = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(406, 289);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Engleasy.Properties.Resources.soldier;
+            this.pictureBox1.Location = new System.Drawing.Point(406, 299);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // btn_gerador
-            // 
-            this.btn_gerador.Location = new System.Drawing.Point(326, 402);
-            this.btn_gerador.Name = "btn_gerador";
-            this.btn_gerador.Size = new System.Drawing.Size(89, 36);
-            this.btn_gerador.TabIndex = 1;
-            this.btn_gerador.Text = "Deletar Inimigo";
-            this.btn_gerador.UseVisualStyleBackColor = true;
-            this.btn_gerador.Click += new System.EventHandler(this.btn_gerador_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // timer1
             // 
@@ -69,21 +62,11 @@
             // 
             // textDebug
             // 
-            this.textDebug.Location = new System.Drawing.Point(290, 341);
+            this.textDebug.Location = new System.Drawing.Point(349, 410);
             this.textDebug.Name = "textDebug";
-            this.textDebug.Size = new System.Drawing.Size(337, 20);
+            this.textDebug.Size = new System.Drawing.Size(190, 20);
             this.textDebug.TabIndex = 2;
             this.textDebug.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textDebug_KeyUp);
-            // 
-            // btnMover
-            // 
-            this.btnMover.Location = new System.Drawing.Point(459, 402);
-            this.btnMover.Name = "btnMover";
-            this.btnMover.Size = new System.Drawing.Size(109, 36);
-            this.btnMover.TabIndex = 3;
-            this.btnMover.Text = "Proximo Round";
-            this.btnMover.UseVisualStyleBackColor = true;
-            this.btnMover.Click += new System.EventHandler(this.button1_Click);
             // 
             // timer2
             // 
@@ -91,38 +74,65 @@
             this.timer2.Interval = 10;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // tbox_Round
-            // 
-            this.tbox_Round.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.tbox_Round.Location = new System.Drawing.Point(315, 242);
-            this.tbox_Round.Name = "tbox_Round";
-            this.tbox_Round.Size = new System.Drawing.Size(100, 20);
-            this.tbox_Round.TabIndex = 4;
-            this.tbox_Round.Text = "Round: 0";
-            // 
             // pbVida
             // 
-            this.pbVida.Location = new System.Drawing.Point(68, 24);
+            this.pbVida.Location = new System.Drawing.Point(180, 12);
             this.pbVida.Name = "pbVida";
-            this.pbVida.Size = new System.Drawing.Size(146, 23);
+            this.pbVida.Size = new System.Drawing.Size(253, 23);
             this.pbVida.TabIndex = 5;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Engleasy.Properties.Resources.cd272634d89f773268cc79d22868f8051;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(162, 40);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Engleasy.Properties.Resources._5cea09a0671775a8feb5c3eb9b679e43;
+            this.pictureBox3.Location = new System.Drawing.Point(459, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(259, 40);
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // lbn_Pontos
+            // 
+            this.lbn_Pontos.AutoSize = true;
+            this.lbn_Pontos.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbn_Pontos.Location = new System.Drawing.Point(724, 12);
+            this.lbn_Pontos.Name = "lbn_Pontos";
+            this.lbn_Pontos.Size = new System.Drawing.Size(18, 19);
+            this.lbn_Pontos.TabIndex = 8;
+            this.lbn_Pontos.Text = "0";
+            this.lbn_Pontos.Click += new System.EventHandler(this.lbn_Pontos_Click);
             // 
             // telaJogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(896, 620);
+            this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio_final;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(894, 620);
+            this.Controls.Add(this.lbn_Pontos);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pbVida);
-            this.Controls.Add(this.tbox_Round);
-            this.Controls.Add(this.btnMover);
             this.Controls.Add(this.textDebug);
-            this.Controls.Add(this.btn_gerador);
             this.Controls.Add(this.pictureBox1);
+            this.DoubleBuffered = true;
             this.Name = "telaJogo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.telaJogo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,12 +141,12 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btn_gerador;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textDebug;
-        private System.Windows.Forms.Button btnMover;
         private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.TextBox tbox_Round;
         private System.Windows.Forms.ProgressBar pbVida;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lbn_Pontos;
     }
 }

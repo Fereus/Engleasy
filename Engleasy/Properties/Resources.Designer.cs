@@ -63,6 +63,106 @@ namespace Engleasy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4f89480b440278f7727ef678649c22c4 {
+            get {
+                object obj = ResourceManager.GetObject("4f89480b440278f7727ef678649c22c4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5cea09a0671775a8feb5c3eb9b679e43 {
+            get {
+                object obj = ResourceManager.GetObject("5cea09a0671775a8feb5c3eb9b679e43", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _69d604ce2cbf28f299680c211c5c9f22 {
+            get {
+                object obj = ResourceManager.GetObject("69d604ce2cbf28f299680c211c5c9f22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c40ef50844b6a4fa271596a07833cbe8 {
+            get {
+                object obj = ResourceManager.GetObject("c40ef50844b6a4fa271596a07833cbe8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cd272634d89f773268cc79d22868f805 {
+            get {
+                object obj = ResourceManager.GetObject("cd272634d89f773268cc79d22868f805", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cd272634d89f773268cc79d22868f8051 {
+            get {
+                object obj = ResourceManager.GetObject("cd272634d89f773268cc79d22868f8051", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap registro {
+            get {
+                object obj = ResourceManager.GetObject("registro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap solbaixo {
+            get {
+                object obj = ResourceManager.GetObject("solbaixo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap solcima {
+            get {
+                object obj = ResourceManager.GetObject("solcima", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap soldadao {
+            get {
+                object obj = ResourceManager.GetObject("soldadao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap soldier {
             get {
                 object obj = ResourceManager.GetObject("soldier", resourceCulture);
@@ -73,9 +173,79 @@ namespace Engleasy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap soldireita {
+            get {
+                object obj = ResourceManager.GetObject("soldireita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap solesquerda {
+            get {
+                object obj = ResourceManager.GetObject("solesquerda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_creditos {
+            get {
+                object obj = ResourceManager.GetObject("tela creditos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_inicial {
+            get {
+                object obj = ResourceManager.GetObject("tela inicial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tela_inicio {
             get {
                 object obj = ResourceManager.GetObject("tela_inicio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_inicio_final {
+            get {
+                object obj = ResourceManager.GetObject("tela inicio final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_rank {
+            get {
+                object obj = ResourceManager.GetObject("tela rank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telagame {
+            get {
+                object obj = ResourceManager.GetObject("telagame", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
