@@ -174,5 +174,12 @@
   <ItemGroup>
     <None Include="Resources\tela inicio final.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9abe1ed209bdf06f2b322b588b332c41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\xablautrue.gif" />
+    <None Include="Resources\xablautrue1.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

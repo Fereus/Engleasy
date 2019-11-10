@@ -93,6 +93,16 @@ namespace Engleasy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _9abe1ed209bdf06f2b322b588b332c41 {
+            get {
+                object obj = ResourceManager.GetObject("9abe1ed209bdf06f2b322b588b332c41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap c40ef50844b6a4fa271596a07833cbe8 {
             get {
                 object obj = ResourceManager.GetObject("c40ef50844b6a4fa271596a07833cbe8", resourceCulture);
@@ -246,6 +256,26 @@ namespace Engleasy.Properties {
         internal static System.Drawing.Bitmap telagame {
             get {
                 object obj = ResourceManager.GetObject("telagame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xablau {
+            get {
+                object obj = ResourceManager.GetObject("xablau", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xablautrue {
+            get {
+                object obj = ResourceManager.GetObject("xablautrue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -16,7 +16,7 @@ namespace Engleasy
         public bool criado = false;
         Random rnd = new Random();
 
-        public string word="sword";
+        public string senha ="sword";
 
         public Enemy()
         {  /*CIMA
@@ -66,9 +66,13 @@ namespace Engleasy
             pb.Location = new Point(posy, posx);
             pb.Size = new Size(32, 32);
             pb.Image = Properties.Resources.solcima;
+
+
+
             nome = new Label();
+            nome.AutoSize = true;
             nome.Location = new Point(posy, posx);
-            nome.Size = new Size(40, 15);
+            nome.Size = new Size(15, 15);
             nome.Text = "Teste";
         }
         

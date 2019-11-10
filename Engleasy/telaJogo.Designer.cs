@@ -37,9 +37,11 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lbn_Pontos = new System.Windows.Forms.Label();
+            this.pbox_Gameover = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_Gameover)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -52,7 +54,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // timer1
             // 
@@ -71,7 +72,7 @@
             // timer2
             // 
             this.timer2.Enabled = true;
-            this.timer2.Interval = 10;
+            this.timer2.Interval = 50;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // pbVida
@@ -110,7 +111,17 @@
             this.lbn_Pontos.Size = new System.Drawing.Size(18, 19);
             this.lbn_Pontos.TabIndex = 8;
             this.lbn_Pontos.Text = "0";
-            this.lbn_Pontos.Click += new System.EventHandler(this.lbn_Pontos_Click);
+            // 
+            // pbox_Gameover
+            // 
+            this.pbox_Gameover.BackColor = System.Drawing.Color.Transparent;
+            this.pbox_Gameover.Image = global::Engleasy.Properties.Resources._9abe1ed209bdf06f2b322b588b332c41;
+            this.pbox_Gameover.Location = new System.Drawing.Point(241, 289);
+            this.pbox_Gameover.Name = "pbox_Gameover";
+            this.pbox_Gameover.Size = new System.Drawing.Size(421, 59);
+            this.pbox_Gameover.TabIndex = 9;
+            this.pbox_Gameover.TabStop = false;
+            this.pbox_Gameover.Visible = false;
             // 
             // telaJogo
             // 
@@ -119,6 +130,7 @@
             this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio_final;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(894, 620);
+            this.Controls.Add(this.pbox_Gameover);
             this.Controls.Add(this.lbn_Pontos);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -129,10 +141,10 @@
             this.Name = "telaJogo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.telaJogo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_Gameover)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +160,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label lbn_Pontos;
+        private System.Windows.Forms.PictureBox pbox_Gameover;
     }
 }

@@ -76,7 +76,7 @@
             this.pictureBox1.Image = global::Engleasy.Properties.Resources._69d604ce2cbf28f299680c211c5c9f22;
             this.pictureBox1.Location = new System.Drawing.Point(283, 52);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(348, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(356, 62);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
