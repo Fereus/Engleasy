@@ -10,7 +10,7 @@ namespace Engleasy
 {
     public class Enemy
     {
-        public PictureBox pb;
+        public PictureBox pb, grave;
         public Label nome;
         public int lado = 0, posy = 0 , posx = 0, posyrnd=0, posxrnd=0;
         public bool criado = false;
@@ -67,7 +67,10 @@ namespace Engleasy
             pb.Size = new Size(32, 32);
             pb.Image = Properties.Resources.solcima;
 
-
+            grave = new PictureBox();
+            grave.BackColor = Color.Transparent;
+            grave.Size = new Size(32, 32);
+            grave.Image = Properties.Resources.grave;
 
             nome = new Label();
             nome.AutoSize = true;

@@ -16,8 +16,9 @@ namespace Engleasy
 
 
 
-
-        int posyrnd = 0, posxrnd = 0, i = 0, r = 0, x = 0, contador = 2, vida = 100, j = 0, pontos = 0;
+        //public PictureBox xablau;
+        PictureBox[] xablau = new PictureBox[30];
+        int posyrnd = 0, posxrnd = 0, i = 0, r = 0, x = 0, contador = 2, vida = 100, j = 0, pontos = 0, z=0;
         int round = 0;
         Enemy[] inimigo = new Enemy[15];
         Random rnd = new Random();
@@ -64,12 +65,24 @@ namespace Engleasy
                 for (int i = 0; i < 15; i++)      //  INSTANCIA  os inimigs
             {
                 inimigo[i] = new Enemy();
-
                 inimigo[i].nome.Text = vet1[j];   //  passando palavra vet 1
                 inimigo[i].senha = vet2[j];       //  traducao correspondente vet 2
                 j++;                              //  j garante posicao igual entre palavra/traducao
+                inimigo[i].grave.Visible = false;
             }
 
+
+
+            for (int i = 0; i < 15; i++)
+            {
+                xablau[i] = new PictureBox();
+                xablau[i].BackColor = Color.Transparent;
+                xablau[i].Size = new Size(32, 32);
+                xablau[i].Image = Properties.Resources.grave;
+                xablau[i].Location = new Point(400, 200);
+                xablau[i].Visible = false;
+                Controls.Add(xablau[i]);
+            }
 
             pbVida.Value = 100;
         }
@@ -133,6 +146,7 @@ namespace Engleasy
             {
                   Controls.Add(inimigo[i].pb);
                   Controls.Add(inimigo[i].nome);
+                  Controls.Add(inimigo[i].grave);
                  if (inimigo[i].criado == false) {
                     inimigo[i].lado = rnd.Next(1, 5);
 
@@ -239,6 +253,13 @@ namespace Engleasy
                 {
                     if (textDebug.Text == inimigo[i].senha)
                     {
+                        if (z > 14)
+                        {
+                            z = 0;
+                        }
+                        xablau[z].Visible = true;
+                        xablau[z].Location = new Point(inimigo[i].pb.Location.X, inimigo[i].pb.Location.Y);
+                        z++;
                         pontos = pontos + 10;
                         lbn_Pontos.Text = ("" + pontos);
                         inimigo[i].lado = rnd.Next(1, 5);

@@ -103,6 +103,26 @@ namespace Engleasy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arma {
+            get {
+                object obj = ResourceManager.GetObject("arma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arma1 {
+            get {
+                object obj = ResourceManager.GetObject("arma1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap c40ef50844b6a4fa271596a07833cbe8 {
             get {
                 object obj = ResourceManager.GetObject("c40ef50844b6a4fa271596a07833cbe8", resourceCulture);
@@ -126,6 +146,56 @@ namespace Engleasy.Properties {
         internal static System.Drawing.Bitmap cd272634d89f773268cc79d22868f8051 {
             get {
                 object obj = ResourceManager.GetObject("cd272634d89f773268cc79d22868f8051", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fernandow {
+            get {
+                object obj = ResourceManager.GetObject("fernandow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grave {
+            get {
+                object obj = ResourceManager.GetObject("grave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jowse {
+            get {
+                object obj = ResourceManager.GetObject("jowse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paulinho {
+            get {
+                object obj = ResourceManager.GetObject("paulinho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paulins {
+            get {
+                object obj = ResourceManager.GetObject("paulins", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +326,16 @@ namespace Engleasy.Properties {
         internal static System.Drawing.Bitmap telagame {
             get {
                 object obj = ResourceManager.GetObject("telagame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telona_do_fim {
+            get {
+                object obj = ResourceManager.GetObject("telona do fim", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

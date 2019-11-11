@@ -118,70 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cd272634d89f773268cc79d22868f805" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cd272634d89f773268cc79d22868f805.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tela_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tela_inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tela inicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tela inicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="69d604ce2cbf28f299680c211c5c9f22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\69d604ce2cbf28f299680c211c5c9f22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tela rank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tela rank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="registro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\registro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5cea09a0671775a8feb5c3eb9b679e43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5cea09a0671775a8feb5c3eb9b679e43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c40ef50844b6a4fa271596a07833cbe8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c40ef50844b6a4fa271596a07833cbe8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xablau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xablau.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4f89480b440278f7727ef678649c22c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4f89480b440278f7727ef678649c22c4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="telagame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\telagame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="solbaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\solbaixo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9abe1ed209bdf06f2b322b588b332c41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9abe1ed209bdf06f2b322b588b332c41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="soldier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\soldier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tela inicio final" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tela inicio final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="soldadao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soldadao.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cd272634d89f773268cc79d22868f8051" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cd272634d89f773268cc79d22868f8051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tela creditos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tela creditos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cd272634d89f773268cc79d22868f805" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cd272634d89f773268cc79d22868f805.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="solesquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\solesquerda.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="solcima" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\solcima.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arma1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arma1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="soldireita" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soldireita.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="arma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd272634d89f773268cc79d22868f8051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cd272634d89f773268cc79d22868f8051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soldier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soldier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="xablautrue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xablautrue1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9abe1ed209bdf06f2b322b588b332c41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9abe1ed209bdf06f2b322b588b332c41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="solesquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solesquerda.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paulinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paulinho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tela inicio final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tela inicio final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="69d604ce2cbf28f299680c211c5c9f22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\69d604ce2cbf28f299680c211c5c9f22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="solcima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solcima.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tela inicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tela inicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tela rank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tela rank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c40ef50844b6a4fa271596a07833cbe8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c40ef50844b6a4fa271596a07833cbe8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="solbaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solbaixo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4f89480b440278f7727ef678649c22c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4f89480b440278f7727ef678649c22c4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jowse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jowse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telagame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telagame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5cea09a0671775a8feb5c3eb9b679e43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5cea09a0671775a8feb5c3eb9b679e43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xablau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xablau.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paulins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paulins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tela creditos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tela creditos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fernandow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fernandow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telona do fim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telona do fim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

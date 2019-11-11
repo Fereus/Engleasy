@@ -47,10 +47,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Engleasy.Properties.Resources.soldier;
-            this.pictureBox1.Location = new System.Drawing.Point(406, 299);
+            this.pictureBox1.Image = global::Engleasy.Properties.Resources.arma1;
+            this.pictureBox1.Location = new System.Drawing.Point(388, 290);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 33);
+            this.pictureBox1.Size = new System.Drawing.Size(58, 59);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -63,7 +63,7 @@
             // 
             // textDebug
             // 
-            this.textDebug.Location = new System.Drawing.Point(349, 410);
+            this.textDebug.Location = new System.Drawing.Point(327, 376);
             this.textDebug.Name = "textDebug";
             this.textDebug.Size = new System.Drawing.Size(190, 20);
             this.textDebug.TabIndex = 2;
@@ -116,7 +116,7 @@
             // 
             this.pbox_Gameover.BackColor = System.Drawing.Color.Transparent;
             this.pbox_Gameover.Image = global::Engleasy.Properties.Resources._9abe1ed209bdf06f2b322b588b332c41;
-            this.pbox_Gameover.Location = new System.Drawing.Point(241, 289);
+            this.pbox_Gameover.Location = new System.Drawing.Point(215, 234);
             this.pbox_Gameover.Name = "pbox_Gameover";
             this.pbox_Gameover.Size = new System.Drawing.Size(421, 59);
             this.pbox_Gameover.TabIndex = 9;
@@ -127,7 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Engleasy.Properties.Resources.tela_inicio_final;
+            this.BackgroundImage = global::Engleasy.Properties.Resources.telona_do_fim;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(894, 620);
             this.Controls.Add(this.pbox_Gameover);
