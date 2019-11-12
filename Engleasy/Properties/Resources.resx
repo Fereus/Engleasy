@@ -127,6 +127,9 @@
   <data name="soldadao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soldadao.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dogtagteste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dogtagteste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="arma1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arma1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,14 +148,29 @@
   <data name="xablautrue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xablautrue1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4f89480b440278f7727ef678649c22c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4f89480b440278f7727ef678649c22c4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="registro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\registro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="9abe1ed209bdf06f2b322b588b332c41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9abe1ed209bdf06f2b322b588b332c41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="solesquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\solesquerda.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,11 +184,11 @@
   <data name="69d604ce2cbf28f299680c211c5c9f22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\69d604ce2cbf28f299680c211c5c9f22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="telona do fim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telona do fim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="solcima" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\solcima.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tela inicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tela inicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tela rank" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tela rank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +199,8 @@
   <data name="solbaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\solbaixo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="4f89480b440278f7727ef678649c22c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4f89480b440278f7727ef678649c22c4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tela inicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tela inicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jowse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jowse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,7 +223,7 @@
   <data name="fernandow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fernandow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="telona do fim" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\telona do fim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
