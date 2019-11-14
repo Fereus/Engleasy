@@ -78,6 +78,10 @@ namespace Engleasy
             nome.Size = new Size(15, 15);
             nome.Text = "Teste";
         }
+       // public doEffect(int x, int y)
+        //{
+          
+        //}return 
         
     }
 

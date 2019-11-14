@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbox_Player = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textDebug = new System.Windows.Forms.TextBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
@@ -38,22 +38,22 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lbn_Pontos = new System.Windows.Forms.Label();
             this.pbox_Gameover = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_Player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_Gameover)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pbox_Player
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Engleasy.Properties.Resources.arma1;
-            this.pictureBox1.Location = new System.Drawing.Point(388, 290);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 59);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pbox_Player.BackColor = System.Drawing.Color.Transparent;
+            this.pbox_Player.Image = global::Engleasy.Properties.Resources.armaup;
+            this.pbox_Player.Location = new System.Drawing.Point(388, 290);
+            this.pbox_Player.Name = "pbox_Player";
+            this.pbox_Player.Size = new System.Drawing.Size(58, 59);
+            this.pbox_Player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbox_Player.TabIndex = 0;
+            this.pbox_Player.TabStop = false;
             // 
             // timer1
             // 
@@ -136,12 +136,12 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pbVida);
             this.Controls.Add(this.textDebug);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbox_Player);
             this.DoubleBuffered = true;
             this.Name = "telaJogo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_Player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_Gameover)).EndInit();
@@ -152,7 +152,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbox_Player;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textDebug;
         private System.Windows.Forms.Timer timer2;

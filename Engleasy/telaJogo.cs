@@ -19,13 +19,12 @@ namespace Engleasy
         //public PictureBox xablau;
         PictureBox[] xablau = new PictureBox[30];
         int posyrnd = 0, posxrnd = 0, i = 0, r = 0, x = 0, contador = 2, vida = 100, j = 0, pontos = 0, z=0;
-        int round = 0;
         Enemy[] inimigo = new Enemy[15];
         Random rnd = new Random();
         bool stop = true;        
         string[] vet1 = new string[30];
         string[] vet2 = new string[30];
-
+        public string teste;
 
 
 
@@ -194,6 +193,28 @@ namespace Engleasy
 
         private void timer2_Tick(object sender, EventArgs e)
         {
+            if (pontos < 200)
+            {
+                timer2.Interval = 50;
+
+            }
+            else if (pontos >= 200 && pontos < 400)
+            {
+                timer2.Interval = 40;
+            }
+            else if (pontos >= 400 && pontos < 600)
+            {
+                timer2.Interval = 30;
+            }
+            else if (pontos >= 600 && pontos < 800)
+            {
+                timer2.Interval = 20;
+            }
+            else
+            {
+                timer2.Interval = 15;
+            }
+
             if (pbVida.Value == 0)
             {
                 pbox_Gameover.Visible = true;
@@ -253,7 +274,7 @@ namespace Engleasy
                 {
                     if (textDebug.Text == inimigo[i].senha)
                     {
-                        if (z > 14)
+                        if (z > 5)
                         {
                             z = 0;
                         }
@@ -266,27 +287,32 @@ namespace Engleasy
 
                     if (inimigo[i].lado == 1)
                     {
+                            //pbox_Player.Image = Properties.Resources.armaup;
+                            inimigo[i].doEffect(inimigo[i].pb.Location.X, inimigo[i].pb.Location.Y);
                         inimigo[i].pb.Image = Properties.Resources.solbaixo;
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 2)
                     {
+                        //pbox_Player.Image = Properties.Resources.armadown;
                         inimigo[i].pb.Image = Properties.Resources.soldireita;
                         inimigo[i].pb.Location = new Point(0, rnd.Next(900));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 3)
                     {
+                       // pbox_Player.Image = Properties.Resources.armaup;
                         inimigo[i].pb.Image = Properties.Resources.solcima;
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 4)
                     {
-                    inimigo[i].pb.Image = Properties.Resources.solesquerda;
-                    inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
-                    inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
+                        //pbox_Player.Image = Properties.Resources.armaleft;
+                        inimigo[i].pb.Image = Properties.Resources.solesquerda;
+                        inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
+                        inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     }
                 }

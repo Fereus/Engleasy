@@ -61,7 +61,7 @@
             // 
             this.pbox_Dogtag1.BackColor = System.Drawing.Color.Transparent;
             this.pbox_Dogtag1.Image = global::Engleasy.Properties.Resources._1;
-            this.pbox_Dogtag1.Location = new System.Drawing.Point(45, 238);
+            this.pbox_Dogtag1.Location = new System.Drawing.Point(54, 238);
             this.pbox_Dogtag1.Name = "pbox_Dogtag1";
             this.pbox_Dogtag1.Size = new System.Drawing.Size(161, 102);
             this.pbox_Dogtag1.TabIndex = 4;
