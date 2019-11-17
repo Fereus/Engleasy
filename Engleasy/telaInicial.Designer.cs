@@ -42,7 +42,7 @@
             this.btnCreditos.Name = "btnCreditos";
             this.btnCreditos.Size = new System.Drawing.Size(187, 43);
             this.btnCreditos.TabIndex = 1;
-            this.btnCreditos.Text = "Abrir Creditos";
+            this.btnCreditos.Text = "Creditos";
             this.btnCreditos.UseVisualStyleBackColor = true;
             this.btnCreditos.Click += new System.EventHandler(this.btnCreditos_Click);
             // 
@@ -53,8 +53,7 @@
             this.btnRank.Name = "btnRank";
             this.btnRank.Size = new System.Drawing.Size(187, 43);
             this.btnRank.TabIndex = 2;
-            this.btnRank.Text = "Abrir Rank";
-            this.btnRank.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRank.Text = "Rank";
             this.btnRank.UseVisualStyleBackColor = true;
             this.btnRank.Click += new System.EventHandler(this.btnRank_Click);
             // 
@@ -66,7 +65,6 @@
             this.btnJogar.Size = new System.Drawing.Size(187, 43);
             this.btnJogar.TabIndex = 3;
             this.btnJogar.Text = "Jogar";
-            this.btnJogar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnJogar.UseVisualStyleBackColor = true;
             this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
             // 

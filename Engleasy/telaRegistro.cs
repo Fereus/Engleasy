@@ -24,5 +24,10 @@ namespace Engleasy
             t5.Show();
             this.Close();
         }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

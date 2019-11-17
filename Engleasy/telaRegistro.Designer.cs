@@ -60,10 +60,11 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
+            this.lblNome.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.Location = new System.Drawing.Point(96, 22);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(74, 25);
+            this.lblNome.Size = new System.Drawing.Size(76, 33);
             this.lblNome.TabIndex = 3;
             this.lblNome.Text = "Nome:";
             this.lblNome.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -71,24 +72,28 @@
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(90, 61);
+            this.lblSenha.BackColor = System.Drawing.Color.Transparent;
+            this.lblSenha.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenha.Location = new System.Drawing.Point(93, 51);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(80, 25);
+            this.lblSenha.Size = new System.Drawing.Size(79, 33);
             this.lblSenha.TabIndex = 4;
             this.lblSenha.Text = "Senha:";
             // 
             // btnRegistrar
             // 
+            this.btnRegistrar.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnRegistrar.Location = new System.Drawing.Point(180, 87);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(96, 48);
             this.btnRegistrar.TabIndex = 5;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnJogar2
             // 
+            this.btnJogar2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJogar2.Location = new System.Drawing.Point(282, 87);
             this.btnJogar2.Name = "btnJogar2";
             this.btnJogar2.Size = new System.Drawing.Size(93, 48);

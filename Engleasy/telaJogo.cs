@@ -288,7 +288,7 @@ namespace Engleasy
                     if (inimigo[i].lado == 1)
                     {
                             //pbox_Player.Image = Properties.Resources.armaup;
-                            inimigo[i].doEffect(inimigo[i].pb.Location.X, inimigo[i].pb.Location.Y);
+                        //inimigo[i].doEffect(inimigo[i].pb.Location.X, inimigo[i].pb.Location.Y);
                         inimigo[i].pb.Image = Properties.Resources.solbaixo;
                         inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
