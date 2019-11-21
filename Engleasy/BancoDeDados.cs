@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace Engleasy
 {
     class BancoDeDados
     {
 
-        private SqlConnection _conn;
-        public SqlConnection conn
+        private MySqlConnection _conn;
+        public MySqlConnection conn
         {
             get { return _conn; }
         }
@@ -28,8 +29,8 @@ namespace Engleasy
         public BancoDeDados()
         {
             // _StrConn = ConfigurationManager.ConnectionStrings["ProjetoBDConnectionString"].ConnectionString;
-            _StrConn = ConfigurationManager.ConnectionStrings["BD17401ConnectionString"].ConnectionString;
-            _conn = new SqlConnection(_StrConn);
+            _StrConn = ConfigurationManager.ConnectionStrings["ConnectionEngleaseLocal"].ConnectionString;
+            _conn = new MySqlConnection(_StrConn);
         }
 
         public bool AbreConexao()

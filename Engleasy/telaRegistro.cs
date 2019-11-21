@@ -27,7 +27,8 @@ namespace Engleasy
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-
+            TelaCadastro cadastro = new TelaCadastro();
+            cadastro.Show();
         }
     }
 }
