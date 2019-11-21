@@ -28,11 +28,7 @@ namespace Engleasy
             MySqlParameter emailParam = new MySqlParameter("@email", a.email);
             MySqlParameter passwordParam = new MySqlParameter("@password", a.password);
            
-         //   usernameParam.Value = a.username;
-           // emailParam.Value = a.email;
-           // passwordParam.Value = a.password;
-           
-
+         
             command.Parameters.Add(usernameParam);
             command.Parameters.Add(emailParam);
             command.Parameters.Add(passwordParam);
