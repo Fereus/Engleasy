@@ -8,10 +8,19 @@ namespace Engleasy
 {
     class Usuario
     {
+       // public static Usuario SessionGame;
         private int _id;
         public int id
         {
             get { return _id; }
+            set { _id = value; }
+        }
+
+        private static Usuario _SessionGame;
+        public static Usuario SessionGame
+        {
+            get { return _SessionGame; }
+            set { _SessionGame = value; }
         }
 
         private string _username;
