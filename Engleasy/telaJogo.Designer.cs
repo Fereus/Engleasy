@@ -47,10 +47,10 @@
             // pbox_Player
             // 
             this.pbox_Player.BackColor = System.Drawing.Color.Transparent;
-            this.pbox_Player.Image = global::Engleasy.Properties.Resources.armaup;
-            this.pbox_Player.Location = new System.Drawing.Point(388, 290);
+            this.pbox_Player.Image = global::Engleasy.Properties.Resources.gunnnnn;
+            this.pbox_Player.Location = new System.Drawing.Point(684, 420);
             this.pbox_Player.Name = "pbox_Player";
-            this.pbox_Player.Size = new System.Drawing.Size(58, 59);
+            this.pbox_Player.Size = new System.Drawing.Size(70, 70);
             this.pbox_Player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbox_Player.TabIndex = 0;
             this.pbox_Player.TabStop = false;
@@ -63,7 +63,7 @@
             // 
             // textDebug
             // 
-            this.textDebug.Location = new System.Drawing.Point(327, 376);
+            this.textDebug.Location = new System.Drawing.Point(622, 485);
             this.textDebug.Name = "textDebug";
             this.textDebug.Size = new System.Drawing.Size(190, 20);
             this.textDebug.TabIndex = 2;
@@ -116,7 +116,7 @@
             // 
             this.pbox_Gameover.BackColor = System.Drawing.Color.Transparent;
             this.pbox_Gameover.Image = global::Engleasy.Properties.Resources._9abe1ed209bdf06f2b322b588b332c41;
-            this.pbox_Gameover.Location = new System.Drawing.Point(215, 234);
+            this.pbox_Gameover.Location = new System.Drawing.Point(504, 355);
             this.pbox_Gameover.Name = "pbox_Gameover";
             this.pbox_Gameover.Size = new System.Drawing.Size(421, 59);
             this.pbox_Gameover.TabIndex = 9;
@@ -127,9 +127,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Engleasy.Properties.Resources.telona_do_fim;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(894, 620);
+            this.BackgroundImage = global::Engleasy.Properties.Resources.JOGAUM_TOPZERA2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(1452, 919);
             this.Controls.Add(this.pbox_Gameover);
             this.Controls.Add(this.lbn_Pontos);
             this.Controls.Add(this.pictureBox3);
@@ -140,7 +140,8 @@
             this.DoubleBuffered = true;
             this.Name = "telaJogo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Engleasy";
+            this.Load += new System.EventHandler(this.telaJogo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbox_Player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

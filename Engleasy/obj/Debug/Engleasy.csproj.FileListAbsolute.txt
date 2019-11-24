@@ -57,3 +57,6 @@ C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\bin\Debug\Engleasy.pdb
 C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.TelaCadastro.resources
 C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\bin\Debug\MySql.Data.dll
 C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete
+C:\Users\Percer\Desktop\Engleasy-master\Engleasy\bin\Debug\MySql.Data.dll
+C:\Users\Percer\Desktop\Engleasy-master\Engleasy\obj\Debug\Engleasy.TelaCadastro.resources
+C:\Users\Percer\Desktop\Engleasy-master\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete

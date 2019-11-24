@@ -273,6 +273,46 @@ namespace Engleasy.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gunnnnn {
+            get {
+                object obj = ResourceManager.GetObject("gunnnnn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JOGAUM_TOPZERA {
+            get {
+                object obj = ResourceManager.GetObject("JOGAUM TOPZERA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JOGAUM_TOPZERA1 {
+            get {
+                object obj = ResourceManager.GetObject("JOGAUM TOPZERA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JOGAUM_TOPZERA2 {
+            get {
+                object obj = ResourceManager.GetObject("JOGAUM TOPZERA2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jowse {
             get {
                 object obj = ResourceManager.GetObject("jowse", resourceCulture);

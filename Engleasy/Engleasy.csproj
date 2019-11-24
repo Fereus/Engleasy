@@ -213,6 +213,10 @@
     <None Include="Resources\paulinho.png" />
     <None Include="Resources\paulins.png" />
     <None Include="Resources\telona do fim.png" />
+    <None Include="Resources\JOGAUM TOPZERA.png" />
+    <None Include="Resources\JOGAUM TOPZERA1.png" />
+    <None Include="Resources\JOGAUM TOPZERA2.png" />
+    <None Include="Resources\gunnnnn.gif" />
     <Content Include="Resources\xablautrue.gif" />
     <None Include="Resources\xablautrue1.gif" />
   </ItemGroup>

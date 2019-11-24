@@ -21,7 +21,13 @@ namespace Engleasy
         int posyrnd = 0, posxrnd = 0, i = 0, r = 0, x = 0, contador = 2, vida = 100, j = 0, pontos = 0, z=0;
         Enemy[] inimigo = new Enemy[15];
         Random rnd = new Random();
-        bool stop = true;        
+        bool stop = true;
+
+        private void telaJogo_Load(object sender, EventArgs e)
+        {
+
+        }
+
         string[] vet1 = new string[30];
         string[] vet2 = new string[30];
         public string teste;
@@ -153,25 +159,25 @@ namespace Engleasy
                     if (inimigo[i].lado == 1)
                     {
                         inimigo[i].pb.Image = Properties.Resources.solbaixo;
-                        inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
+                        inimigo[i].pb.Location = new Point(rnd.Next(0, 1450), 0);
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X-5, inimigo[i].pb.Location.Y-15);
                     }
                     if (inimigo[i].lado == 2)
                     {
                         inimigo[i].pb.Image = Properties.Resources.soldireita;
-                        inimigo[i].pb.Location = new Point(0, rnd.Next(900));
+                        inimigo[i].pb.Location = new Point(0, rnd.Next(1450));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 3)
                     {
                         inimigo[i].pb.Image = Properties.Resources.solcima;
-                        inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
+                        inimigo[i].pb.Location = new Point(rnd.Next(0, 1450), rnd.Next(920, 920));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 4)
                     {
                         inimigo[i].pb.Image = Properties.Resources.solesquerda;
-                        inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
+                        inimigo[i].pb.Location = new Point(rnd.Next(1450, 1450), rnd.Next(0, 920));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
 
@@ -228,39 +234,39 @@ namespace Engleasy
 
                 if (x.criado == true)
                 {
-                    if ((x.pb.Location.X < 406) && (x.pb.Location.Y > 289))
+                    if ((x.pb.Location.X < 695) && (x.pb.Location.Y > 430))
                         x.pb.Location = new Point(x.pb.Location.X + 1, x.pb.Location.Y-1);
                         x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y-15);
 
-                    if ((x.pb.Location.X > 406) && (x.pb.Location.Y < 289))
+                    if ((x.pb.Location.X > 695) && (x.pb.Location.Y < 430))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y + 1);
                         x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X > 406) && (x.pb.Location.Y > 289))
+                    if ((x.pb.Location.X > 695) && (x.pb.Location.Y > 430))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y- 1);
                      x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X < 406) && (x.pb.Location.Y < 289))
+                    if ((x.pb.Location.X < 695) && (x.pb.Location.Y < 430))
                         x.pb.Location = new Point(x.pb.Location.X + 1, x.pb.Location.Y + 1);
                       x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X == 406) && (x.pb.Location.Y > 289))
+                    if ((x.pb.Location.X == 695) && (x.pb.Location.Y > 430))
                         x.pb.Location = new Point(x.pb.Location.X, x.pb.Location.Y - 1);
                        x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X == 406) && (x.pb.Location.Y < 289))
+                    if ((x.pb.Location.X == 695) && (x.pb.Location.Y < 430))
                         x.pb.Location = new Point(x.pb.Location.X, x.pb.Location.Y + 1);
                        x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X < 406) && (x.pb.Location.Y == 289))
+                    if ((x.pb.Location.X < 695) && (x.pb.Location.Y == 430))
                         x.pb.Location = new Point(x.pb.Location.X +1, x.pb.Location.Y);
                        x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X > 406) && (x.pb.Location.Y == 289))
+                    if ((x.pb.Location.X > 695) && (x.pb.Location.Y == 430))
                         x.pb.Location = new Point(x.pb.Location.X - 1, x.pb.Location.Y);
                        x.nome.Location = new Point(x.pb.Location.X + -5, x.pb.Location.Y - 15);
 
-                    if ((x.pb.Location.X == 406) && (x.pb.Location.Y == 289) && (pbVida.Value > 0))
+                    if ((x.pb.Location.X == 695) && (x.pb.Location.Y == 430) && (pbVida.Value > 0))
                         pbVida.Value--;
                 }
             }
@@ -290,28 +296,28 @@ namespace Engleasy
                             //pbox_Player.Image = Properties.Resources.armaup;
                         //inimigo[i].doEffect(inimigo[i].pb.Location.X, inimigo[i].pb.Location.Y);
                         inimigo[i].pb.Image = Properties.Resources.solbaixo;
-                        inimigo[i].pb.Location = new Point(rnd.Next(0, 900), 0);
+                        inimigo[i].pb.Location = new Point(rnd.Next(0, 1450), 0);
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 2)
                     {
                         //pbox_Player.Image = Properties.Resources.armadown;
                         inimigo[i].pb.Image = Properties.Resources.soldireita;
-                        inimigo[i].pb.Location = new Point(0, rnd.Next(900));
+                        inimigo[i].pb.Location = new Point(0, rnd.Next(1450));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 3)
                     {
                        // pbox_Player.Image = Properties.Resources.armaup;
                         inimigo[i].pb.Image = Properties.Resources.solcima;
-                        inimigo[i].pb.Location = new Point(rnd.Next(0, 900), rnd.Next(590, 590));
+                        inimigo[i].pb.Location = new Point(rnd.Next(0, 1450), rnd.Next(920, 920));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     if (inimigo[i].lado == 4)
                     {
                         //pbox_Player.Image = Properties.Resources.armaleft;
                         inimigo[i].pb.Image = Properties.Resources.solesquerda;
-                        inimigo[i].pb.Location = new Point(rnd.Next(880, 880), rnd.Next(0, 590));
+                        inimigo[i].pb.Location = new Point(rnd.Next(1450, 1450), rnd.Next(0, 920));
                         inimigo[i].nome.Location = new Point(inimigo[i].pb.Location.X - 5, inimigo[i].pb.Location.Y - 15);
                     }
                     }
