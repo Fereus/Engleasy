@@ -22,8 +22,17 @@ namespace Engleasy
         Enemy[] inimigo = new Enemy[15];
         Random rnd = new Random();
         bool stop = true;
+        Pontos point = new Pontos();
+        GameBD bdGame = new GameBD();
+        GameController controller = new GameController();
+        Conquista conquista = new Conquista();
 
         private void telaJogo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbn_Pontos_Click(object sender, EventArgs e)
         {
 
         }
@@ -199,6 +208,8 @@ namespace Engleasy
 
         private void timer2_Tick(object sender, EventArgs e)
         {
+
+
             if (pontos < 200)
             {
                 timer2.Interval = 50;
@@ -223,11 +234,40 @@ namespace Engleasy
 
             if (pbVida.Value == 0)
             {
+
                 pbox_Gameover.Visible = true;
                 textDebug.Enabled = false;
                 textDebug.Text = " :( ";
                 timer1.Enabled = false;
                 timer2.Enabled = false;
+
+               // try
+             //   {
+                    point.idUsr = 64;
+                    point.pontos = pontos;
+                    bdGame.savePoints(point);
+                    conquista.idUsr = 64;
+                    conquista.conquistas = controller.conquistas(pontos);
+
+                if (bdGame.getBestPointById(64) != 0 && pontos < bdGame.getBestPointById(64))
+                    {
+                        
+
+                        bdGame.updateConquistas(conquista);
+
+                       
+                    }
+                    else
+                    {
+                        bdGame.saveConquistas(conquista);
+
+                    }
+             //   }
+            //    catch (Exception)
+               // {
+               //     MessageBox.Show("Problemas em salvar dados");
+              //  }
+
             }
             foreach (Enemy x in inimigo)
             {

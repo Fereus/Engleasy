@@ -91,17 +91,146 @@ namespace Engleasy
             
 
 
-            /* int id = usrs.GetFieldValue<int>(0);
-             string username = usrs.GetFieldValue<string>(1);
-             string password = usrs.GetFieldValue<string>(2);
-             Usuario.SessionGame.id = id;
-             Usuario.SessionGame.username = username;
-             Usuario.SessionGame.password = password;*/
-
-
             bd.FechaConexao();
 
             return ret;
+        }
+
+
+        public void savePoints(Pontos a)
+        {
+
+         
+            BancoDeDados bd = new BancoDeDados();
+            bd.AbreConexao();
+
+            MySqlCommand command = new MySqlCommand(null, bd.conn);
+            command.CommandText = "INSERT INTO pontos (pt_usrId,pt_pontuacao) VALUES (@idUser,@pontos)";
+            MySqlParameter idUsrParam = new MySqlParameter("@idUser", a.idUsr);
+            MySqlParameter pontosParam = new MySqlParameter("@pontos", a.pontos);
+           
+
+
+            command.Parameters.Add(idUsrParam);
+            command.Parameters.Add(pontosParam);
+           
+            command.Prepare();
+            command.ExecuteNonQuery();
+
+            bd.FechaConexao();
+
+
+        }
+
+      
+
+
+        public void saveConquistas(Conquista a)
+        {
+
+
+            BancoDeDados bd = new BancoDeDados();
+            bd.AbreConexao();
+
+            MySqlCommand command = new MySqlCommand(null, bd.conn);
+            command.CommandText = "INSERT INTO conquistas (cq_usrId,cq_conquista) VALUES (@idUser,@conquistas)";
+            MySqlParameter idUsrParam = new MySqlParameter("@idUser", a.idUsr);
+            MySqlParameter conquistaParam = new MySqlParameter("@conquistas", a.conquistas);
+
+
+
+            command.Parameters.Add(idUsrParam);
+            command.Parameters.Add(conquistaParam);
+
+            command.Prepare();
+            command.ExecuteNonQuery();
+
+            bd.FechaConexao();
+
+
+        }
+
+        public void updateConquistas(Conquista a)
+        {
+
+            try
+            {
+                BancoDeDados bd = new BancoDeDados();
+                bd.AbreConexao();
+
+                MySqlCommand command = new MySqlCommand(null, bd.conn);
+                command.CommandText = "UPDATE conquistas SET cq_conquista = @conquistas WHERE cq_usrId = @idUser";
+                MySqlParameter idUsrParam = new MySqlParameter("@idUser", a.idUsr);
+                MySqlParameter conquistaParam = new MySqlParameter("@conquistas", a.conquistas);
+
+
+
+                command.Parameters.Add(idUsrParam);
+                command.Parameters.Add(conquistaParam);
+
+                command.Prepare();
+                command.ExecuteNonQuery();
+
+                bd.FechaConexao();
+            }
+            catch (Exception)
+            {
+                this.saveConquistas(a);
+            }
+
+        }
+
+
+        public void saveRegistroLogin(RegistroLogin a)
+        {
+
+
+            BancoDeDados bd = new BancoDeDados();
+            bd.AbreConexao();
+
+            MySqlCommand command = new MySqlCommand(null, bd.conn);
+            command.CommandText = "INSERT INTO registro_login (rl_usrId,rl_data_registro) VALUES (@idUser,@registro)";
+            MySqlParameter idUsrParam = new MySqlParameter("@idUser", a.idUsr);
+            MySqlParameter registroParam = new MySqlParameter("@registro", a.registro);
+
+
+
+            command.Parameters.Add(idUsrParam);
+            command.Parameters.Add(registroParam);
+
+            command.Prepare();
+            command.ExecuteNonQuery();
+
+            bd.FechaConexao();
+
+
+        }
+
+
+        public int getBestPointById(int id)
+        {
+
+            int pontos;
+            Pontos a = new Pontos();
+            BancoDeDados bd = new BancoDeDados();
+            bd.AbreConexao();
+
+            MySqlCommand command = new MySqlCommand(null, bd.conn);
+            command.CommandText = "SELECT max(pt_pontuacao) FROM pontos WHERE pt_usrId ='" + id + "'";
+
+            // "SELECT codigoCadastro, nome, idade, telefone, cpf, rg, dataNasc, sexo, endereco, numero, cidade, estado, categoriaPretendida FROM Trab_CADASTROALUNO WHERE cpf LIKE '%" + cpf + "%'";
+
+            command.Prepare();
+            command.ExecuteNonQuery();
+            MySqlDataReader ret = command.ExecuteReader();
+            ret.Read();
+
+            pontos = ret.GetInt32(0);
+          
+
+            bd.FechaConexao();
+
+            return pontos;
         }
 
         /*  public void Excluir(int id)

@@ -51,8 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BancoDeDados.cs" />
+    <Compile Include="Conquista.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="GameBD.cs" />
+    <Compile Include="GameController.cs" />
+    <Compile Include="Pontos.cs" />
+    <Compile Include="RegistroLogin.cs" />
     <Compile Include="TelaCadastro.cs">
       <SubType>Form</SubType>
     </Compile>

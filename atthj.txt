@@ -324,3 +324,11 @@ namespace Engleasy
     }
 }
 
+
+
+Minha area: 
+todos os pontos 
+maior pontuação
+Patente
+
+alterar senha

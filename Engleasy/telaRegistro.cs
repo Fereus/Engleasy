@@ -24,6 +24,7 @@ namespace Engleasy
         private void btnJogar2_Click(object sender, EventArgs e)
         {
             Usuario usr = new Usuario();
+            RegistroLogin reg = new RegistroLogin();
             GameBD login = new GameBD();
            try
            {
@@ -34,6 +35,10 @@ namespace Engleasy
               
                 if (Usuario.SessionGame != null)
                 {
+                    reg.idUsr = 64;
+                    reg.registro = DateTime.Now;
+
+                    login.saveRegistroLogin(reg);
                                    
                     telaJogo t5 = new telaJogo();
                     t5.Show();

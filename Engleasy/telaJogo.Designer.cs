@@ -111,6 +111,7 @@
             this.lbn_Pontos.Size = new System.Drawing.Size(18, 19);
             this.lbn_Pontos.TabIndex = 8;
             this.lbn_Pontos.Text = "0";
+            this.lbn_Pontos.Click += new System.EventHandler(this.lbn_Pontos_Click);
             // 
             // pbox_Gameover
             // 
@@ -129,7 +130,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Engleasy.Properties.Resources.JOGAUM_TOPZERA2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1452, 919);
+            this.ClientSize = new System.Drawing.Size(1356, 742);
             this.Controls.Add(this.pbox_Gameover);
             this.Controls.Add(this.lbn_Pontos);
             this.Controls.Add(this.pictureBox3);
