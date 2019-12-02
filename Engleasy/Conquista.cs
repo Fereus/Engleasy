@@ -23,8 +23,8 @@ namespace Engleasy
             set { _idUsr = value; }
         }
 
-        private string _conquistas;
-        public string conquistas
+        private int _conquistas;
+        public int conquistas
         {
             get { return _conquistas; }
             set { _conquistas = value; }

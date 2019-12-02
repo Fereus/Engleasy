@@ -38,6 +38,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lbn_Pontos = new System.Windows.Forms.Label();
             this.pbox_Gameover = new System.Windows.Forms.PictureBox();
+            this.btn_JogarNovamente = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_Player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -101,6 +102,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(259, 40);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // lbn_Pontos
             // 
@@ -124,13 +126,25 @@
             this.pbox_Gameover.TabStop = false;
             this.pbox_Gameover.Visible = false;
             // 
+            // btn_JogarNovamente
+            // 
+            this.btn_JogarNovamente.Location = new System.Drawing.Point(808, 420);
+            this.btn_JogarNovamente.Name = "btn_JogarNovamente";
+            this.btn_JogarNovamente.Size = new System.Drawing.Size(101, 30);
+            this.btn_JogarNovamente.TabIndex = 10;
+            this.btn_JogarNovamente.Text = "Jogar novamente";
+            this.btn_JogarNovamente.UseVisualStyleBackColor = true;
+            this.btn_JogarNovamente.Visible = false;
+            this.btn_JogarNovamente.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // telaJogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Engleasy.Properties.Resources.JOGAUM_TOPZERA2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1356, 742);
+            this.ClientSize = new System.Drawing.Size(1364, 750);
+            this.Controls.Add(this.btn_JogarNovamente);
             this.Controls.Add(this.pbox_Gameover);
             this.Controls.Add(this.lbn_Pontos);
             this.Controls.Add(this.pictureBox3);
@@ -163,5 +177,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label lbn_Pontos;
         private System.Windows.Forms.PictureBox pbox_Gameover;
+        private System.Windows.Forms.Button btn_JogarNovamente;
     }
 }

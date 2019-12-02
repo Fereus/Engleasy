@@ -133,7 +133,7 @@ namespace Engleasy
             bd.AbreConexao();
 
             MySqlCommand command = new MySqlCommand(null, bd.conn);
-            command.CommandText = "INSERT INTO conquistas (cq_usrId,cq_conquista) VALUES (@idUser,@conquistas)";
+            command.CommandText = "INSERT INTO conquistas (cq_usrId,cq_idConquista) VALUES (@idUser,@conquistas)";
             MySqlParameter idUsrParam = new MySqlParameter("@idUser", a.idUsr);
             MySqlParameter conquistaParam = new MySqlParameter("@conquistas", a.conquistas);
 
@@ -231,6 +231,44 @@ namespace Engleasy
             bd.FechaConexao();
 
             return pontos;
+        }
+
+
+        public List<Rank> getAllPontosAndUser()
+        {
+
+
+            List<Rank> listRank = new List<Rank>();
+            Rank rank = new Rank();
+            BancoDeDados bd = new BancoDeDados();
+            bd.AbreConexao();
+
+            MySqlCommand command = new MySqlCommand(null, bd.conn);
+            command.CommandText = "SELECT c.usr_username, max(p.pt_pontuacao) FROM cad_user AS c JOIN pontos AS p ON c.usr_id = p.pt_usrId group by c.usr_username";
+
+            // "SELECT codigoCadastro, nome, idade, telefone, cpf, rg, dataNasc, sexo, endereco, numero, cidade, estado, categoriaPretendida FROM Trab_CADASTROALUNO WHERE cpf LIKE '%" + cpf + "%'";
+
+            command.Prepare();
+            command.ExecuteNonQuery();
+            MySqlDataReader ret = command.ExecuteReader();
+           
+
+            for(int i = 0; i<4; i++)
+            {
+                if (ret.Read())
+                {
+                    rank.Name = ret.GetString(0);
+                    rank.ponto = ret.GetInt32(1);
+                    listRank.Add(rank);
+                    rank = new Rank();
+                }
+                
+            }
+            
+
+            bd.FechaConexao();
+
+            return listRank;
         }
 
         /*  public void Excluir(int id)

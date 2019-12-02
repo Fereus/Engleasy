@@ -34,7 +34,6 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.lblNome = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnJogar2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -80,23 +79,12 @@
             this.lblSenha.TabIndex = 4;
             this.lblSenha.Text = "Senha:";
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnRegistrar.Location = new System.Drawing.Point(180, 87);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(96, 48);
-            this.btnRegistrar.TabIndex = 5;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
             // btnJogar2
             // 
             this.btnJogar2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJogar2.Location = new System.Drawing.Point(282, 87);
+            this.btnJogar2.Location = new System.Drawing.Point(182, 87);
             this.btnJogar2.Name = "btnJogar2";
-            this.btnJogar2.Size = new System.Drawing.Size(93, 48);
+            this.btnJogar2.Size = new System.Drawing.Size(193, 48);
             this.btnJogar2.TabIndex = 6;
             this.btnJogar2.Text = "Jogar";
             this.btnJogar2.UseVisualStyleBackColor = true;
@@ -110,7 +98,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(398, 245);
             this.Controls.Add(this.btnJogar2);
-            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.txt_password);
@@ -130,7 +117,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnJogar2;
     }
 }

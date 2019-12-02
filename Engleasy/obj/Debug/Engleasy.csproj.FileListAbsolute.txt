@@ -60,3 +60,37 @@ C:\Users\Fereus\Documents\GitHub\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.Cop
 C:\Users\Percer\Desktop\Engleasy-master\Engleasy\bin\Debug\MySql.Data.dll
 C:\Users\Percer\Desktop\Engleasy-master\Engleasy\obj\Debug\Engleasy.TelaCadastro.resources
 C:\Users\Percer\Desktop\Engleasy-master\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\bin\Debug\Engleasy.exe.config
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\bin\Debug\Engleasy.exe
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\bin\Debug\Engleasy.pdb
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\bin\Debug\MySql.Data.dll
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csprojAssemblyReference.cache
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.TelaCadastro.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaCreditos.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaInicial.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaJogo.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaRank.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaRegistro.resources
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.exe
+C:\Users\Aluno\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.pdb
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\bin\Debug\Engleasy.exe.config
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\bin\Debug\Engleasy.exe
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\bin\Debug\Engleasy.pdb
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\bin\Debug\MySql.Data.dll
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.csprojAssemblyReference.cache
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.TelaCadastro.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.telaCreditos.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.telaInicial.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.Properties.Resources.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.telaJogo.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.telaRank.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.telaRegistro.resources
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.GenerateResource.cache
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CoreCompileInputs.cache
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.exe
+C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.pdb

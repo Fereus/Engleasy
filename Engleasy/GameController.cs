@@ -10,80 +10,80 @@ namespace Engleasy
     {
         Conquista conquista = new Conquista();
 
-        public string conquistas(int pontos)
+        public int conquistas(int pontos)
         {
-            string ret = "";
+            int ret = 0;
 
            if(pontos < 100)
             {
-                ret = "Recruta";
+                ret = 1;
             }else if (pontos >=100 && pontos < 200)
             {
-                ret = "Soldado";
+                ret = 2;
             }
             else if (pontos >= 200 && pontos < 300)
             {
-                ret = "Cabo";
+                ret = 3;
             }
             else if (pontos >= 300 && pontos < 400)
             {
-                ret = "Terceiro-Sargento";
+                ret = 4;
             }
             else if (pontos >= 400 && pontos < 500)
             {
-                ret = "Segundo-Sargento";
+                ret = 5;
             }
             else if (pontos >= 500 && pontos < 600)
             {
-                ret = "Primeiro-Sargento";
+                ret = 6;
             }
             else if (pontos >= 600 && pontos < 700)
             {
-                ret = "Subtenente";
+                ret = 7;
             }
             else if (pontos >= 700 && pontos < 800)
             {
-                ret = "Aspirante";
+                ret = 8;
             }
             else if (pontos >= 800 && pontos < 900)
             {
-                ret = "Segundo-Tenente";
+                ret = 9;
             }
             else if (pontos >= 900 && pontos < 1000)
             {
-                ret = "Primeiro-Tenente";
+                ret = 10;
             }
             else if (pontos >= 1000 && pontos < 1100)
             {
-                ret = "Capitão";
+                ret = 11;
             }
             else if (pontos >= 1100 && pontos < 1200)
             {
-                ret = "Major";
+                ret = 12;
             }
             else if (pontos >= 1200 && pontos < 1300)
             {
-                ret = "Tenente-Coronel";
+                ret = 13;
             }
             else if (pontos >= 1300 && pontos < 1400)
             {
-                ret = "Coronel";
+                ret = 14;
             }
             else if (pontos >= 1400 && pontos < 1500)
             {
-                ret = "General de Brigada";
+                ret = 15;
             }
             else if (pontos >= 1500 && pontos < 1600)
             {
-                ret = "General de Divisão";
+                ret = 16;
             }
             else if (pontos >= 1600 && pontos < 1700)
             {
-                ret = "General de Divisão";
+                ret = 17;
             }
             else 
             {
-                ret = "Marechal";
+                ret = 18;
             }
 
 

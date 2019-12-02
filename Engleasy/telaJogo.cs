@@ -37,6 +37,18 @@ namespace Engleasy
 
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            telaJogo t5 = new telaJogo();
+            t5.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         string[] vet1 = new string[30];
         string[] vet2 = new string[30];
         public string teste;
@@ -236,6 +248,7 @@ namespace Engleasy
             {
 
                 pbox_Gameover.Visible = true;
+                btn_JogarNovamente.Visible = true;
                 textDebug.Enabled = false;
                 textDebug.Text = " :( ";
                 timer1.Enabled = false;
@@ -243,19 +256,17 @@ namespace Engleasy
 
                // try
              //   {
-                    point.idUsr = 64;
+                    point.idUsr = 65;
                     point.pontos = pontos;
                     bdGame.savePoints(point);
-                    conquista.idUsr = 64;
+                    conquista.idUsr = 65;
                     conquista.conquistas = controller.conquistas(pontos);
 
-                if (bdGame.getBestPointById(64) != 0 && pontos < bdGame.getBestPointById(64))
+                if (bdGame.getBestPointById(65) != 0 && pontos < bdGame.getBestPointById(65))
                     {
                         
-
                         bdGame.updateConquistas(conquista);
-
-                       
+                                           
                     }
                     else
                     {

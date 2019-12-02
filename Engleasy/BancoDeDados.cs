@@ -28,8 +28,8 @@ namespace Engleasy
 
         public BancoDeDados()
         {
-            // _StrConn = ConfigurationManager.ConnectionStrings["ProjetoBDConnectionString"].ConnectionString;
-            _StrConn = ConfigurationManager.ConnectionStrings["ConnectionEngleaseLocal"].ConnectionString;
+             _StrConn = ConfigurationManager.ConnectionStrings["ConnectionEngleaseLocal"].ConnectionString;
+            //_StrConn = ConfigurationManager.ConnectionStrings["ConnectionEngleaseLocal"].ConnectionString;
             _conn = new MySqlConnection(_StrConn);
         }
 
