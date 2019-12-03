@@ -108,7 +108,7 @@ namespace Engleasy
 
                 if (Usuario.SessionGame != null)
                 {
-                    reg.idUsr = 64;
+                    reg.idUsr = Usuario.SessionGame.id;
                     reg.registro = DateTime.Now;
 
                     login.saveRegistroLogin(reg);
@@ -150,7 +150,7 @@ namespace Engleasy
 
                 if (Usuario.SessionGame != null)
                 {
-                    reg.idUsr = 65;
+                    reg.idUsr = Usuario.SessionGame.id;
                     reg.registro = DateTime.Now;
 
                     login.saveRegistroLogin(reg);
@@ -168,10 +168,8 @@ namespace Engleasy
             catch (Exception)
             {
 
-                 MessageBox.Show("Senha incorreta");//   (APAGAR EMBAIXO E ATIVAR ESSA LINHA)
-              //  telaJogo t5 = new telaJogo();
-              //  t5.Show();
-             //   this.Close();
+                 MessageBox.Show("Senha incorreta");
+            
             }
            
         }

@@ -29,5 +29,12 @@ namespace Engleasy
             get { return _conquistas; }
             set { _conquistas = value; }
         }
+
+        private string _tipoConquistas;
+        public string tipoConquistas
+        {
+            get { return _tipoConquistas; }
+            set { _tipoConquistas = value; }
+        }
     }
 }

@@ -49,21 +49,39 @@ namespace Engleasy
 
         }
 
-        string[] vet1 = new string[30];
-        string[] vet2 = new string[30];
+        string[] vet1 = new string[55];
+        string[] vet2 = new string[55];
         public string teste;
-
+        List<Palavras> listPalavras = new List<Palavras>();
 
 
         public telaJogo()
         {
-
-
+            int indexPalavra = 0;
+;
             InitializeComponent();
+            try
+            {
+                listPalavras = bdGame.getPalavras();
+                 indexPalavra = listPalavras.Count;
+
+            }
+            catch
+            {
+                MessageBox.Show("Não foi possivel fazer conexão com o banco de dados");
+                return;
+            }
+
+            for(int i = 0; i< indexPalavra; i++)
+            {
+                vet1[i] = listPalavras[i].gp_palavra_ingles;
+                vet2[i] = listPalavras[i].gp_palavra_traducao;
+            }
+                
 
 
 
-            vet1[0] = "sword";
+          /* vet1[0] = "sword";
             vet1[1] = "ice";
             vet1[2] = "gun";
             vet1[3] = "keyboard";
@@ -85,7 +103,7 @@ namespace Engleasy
             vet2[7] = "unha";
             vet2[8] = "celular";
             vet2[9] = "raio";
-            vet2[10] = "computador";
+            vet2[10] = "computador";*/
 
 
                 for (int i = 0; i < 15; i++)      //  INSTANCIA  os inimigs
@@ -256,10 +274,10 @@ namespace Engleasy
 
                // try
              //   {
-                    point.idUsr = 65;
+                    point.idUsr = Usuario.SessionGame.id;
                     point.pontos = pontos;
                     bdGame.savePoints(point);
-                    conquista.idUsr = 65;
+                    conquista.idUsr = Usuario.SessionGame.id;
                     conquista.conquistas = controller.conquistas(pontos);
 
                 if (bdGame.getBestPointById(65) != 0 && pontos < bdGame.getBestPointById(65))

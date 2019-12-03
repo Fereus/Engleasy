@@ -19,25 +19,7 @@ namespace Engleasy
         public string senha ="sword";
 
         public Enemy()
-        {  /*CIMA
-            posy = rnd.Next(0, 900);
-            posx = rnd.Next(0);
-            */
-
-            /*ESQUERDA
-            posy = rnd.Next(0);
-            posx = rnd.Next(900);
-            */
-
-            /*baixo
-            posy = rnd.Next(0, 900);
-            posx = rnd.Next(590, 590);
-            */
-
-            /*direita
-            posy = rnd.Next(880,880);
-            posx = rnd.Next(0,590);
-            */
+        {  
             lado = rnd.Next(1, 5);
             if (lado == 1)
             {
@@ -77,11 +59,13 @@ namespace Engleasy
             nome.Location = new Point(posy, posx);
             nome.Size = new Size(15, 15);
             nome.Text = "Teste";
+            nome.BackColor = Color.Transparent;
+            nome.ForeColor = Color.Black;
+            nome.Font = new Font("Arial", 10, FontStyle.Regular);
+
+
         }
-       // public doEffect(int x, int y)
-        //{
-          
-        //}return 
+      
 
         
         

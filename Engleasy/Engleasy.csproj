@@ -55,6 +55,7 @@
     <Compile Include="Enemy.cs" />
     <Compile Include="GameBD.cs" />
     <Compile Include="GameController.cs" />
+    <Compile Include="Palavras.cs" />
     <Compile Include="Pontos.cs" />
     <Compile Include="Rank.cs" />
     <Compile Include="RegistroLogin.cs" />
