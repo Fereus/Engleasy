@@ -75,8 +75,7 @@ namespace Engleasy
             MySqlCommand command = new MySqlCommand(null, bd.conn);
             command.CommandText = "SELECT usr_id, usr_username, usr_email, usr_password FROM cad_user WHERE usr_username ='" + usr.username + "'and usr_password ='"+ senha+"'";
 
-            // "SELECT codigoCadastro, nome, idade, telefone, cpf, rg, dataNasc, sexo, endereco, numero, cidade, estado, categoriaPretendida FROM Trab_CADASTROALUNO WHERE cpf LIKE '%" + cpf + "%'";
-
+           
             command.Prepare();
             command.ExecuteNonQuery();
             MySqlDataReader ret = command.ExecuteReader();

@@ -94,3 +94,20 @@ C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.cspr
 C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete
 C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.exe
 C:\Users\Percer\Desktop\Final Engleasy\Engleasy\Engleasy\obj\Debug\Engleasy.pdb
+C:\Users\zemau\Desktop\Engleasy\Engleasy\bin\Debug\Engleasy.exe.config
+C:\Users\zemau\Desktop\Engleasy\Engleasy\bin\Debug\Engleasy.exe
+C:\Users\zemau\Desktop\Engleasy\Engleasy\bin\Debug\Engleasy.pdb
+C:\Users\zemau\Desktop\Engleasy\Engleasy\bin\Debug\MySql.Data.dll
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csprojAssemblyReference.cache
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.TelaCadastro.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaCreditos.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaInicial.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.Properties.Resources.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaJogo.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaRank.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.telaRegistro.resources
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.GenerateResource.cache
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CoreCompileInputs.cache
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.csproj.CopyComplete
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.exe
+C:\Users\zemau\Desktop\Engleasy\Engleasy\obj\Debug\Engleasy.pdb

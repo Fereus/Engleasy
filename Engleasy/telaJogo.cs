@@ -280,7 +280,7 @@ namespace Engleasy
                     conquista.idUsr = Usuario.SessionGame.id;
                     conquista.conquistas = controller.conquistas(pontos);
 
-                if (bdGame.getBestPointById(65) != 0 && pontos < bdGame.getBestPointById(65))
+                if (bdGame.getBestPointById(Usuario.SessionGame.id) != 0 && pontos < bdGame.getBestPointById(Usuario.SessionGame.id))
                     {
                         
                         bdGame.updateConquistas(conquista);
