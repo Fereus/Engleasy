@@ -60,8 +60,9 @@ namespace Engleasy
             nome.Size = new Size(15, 15);
             nome.Text = "Teste";
             nome.BackColor = Color.Transparent;
+            nome.Font = new Font(FontFamily.GenericSansSerif, 9.0F, FontStyle.Bold, GraphicsUnit.Point); 
             nome.ForeColor = Color.Black;
-            nome.Font = new Font("Arial", 10, FontStyle.Regular);
+           
 
 
         }

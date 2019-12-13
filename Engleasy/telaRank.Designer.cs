@@ -39,6 +39,9 @@
             this.lbl_nome3 = new System.Windows.Forms.Label();
             this.lbl_nome4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbl_patent = new System.Windows.Forms.Label();
+            this.lbl_lastLogin = new System.Windows.Forms.Label();
+            this.lbl_record = new System.Windows.Forms.Label();
             this.lbn_lastLogin = new System.Windows.Forms.Label();
             this.lbn_bestscore = new System.Windows.Forms.Label();
             this.lbn_patente = new System.Windows.Forms.Label();
@@ -47,9 +50,6 @@
             this.lbl_ponto2 = new System.Windows.Forms.Label();
             this.lbl_ponto3 = new System.Windows.Forms.Label();
             this.lbl_ponto4 = new System.Windows.Forms.Label();
-            this.lbl_record = new System.Windows.Forms.Label();
-            this.lbl_lastLogin = new System.Windows.Forms.Label();
-            this.lbl_patent = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_Dogtag1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -169,6 +169,39 @@
             this.panel1.TabIndex = 14;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // lbl_patent
+            // 
+            this.lbl_patent.AutoSize = true;
+            this.lbl_patent.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_patent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_patent.Location = new System.Drawing.Point(360, 97);
+            this.lbl_patent.Name = "lbl_patent";
+            this.lbl_patent.Size = new System.Drawing.Size(90, 16);
+            this.lbl_patent.TabIndex = 21;
+            this.lbl_patent.Text = "Ultimo login";
+            // 
+            // lbl_lastLogin
+            // 
+            this.lbl_lastLogin.AutoSize = true;
+            this.lbl_lastLogin.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_lastLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_lastLogin.Location = new System.Drawing.Point(360, 151);
+            this.lbl_lastLogin.Name = "lbl_lastLogin";
+            this.lbl_lastLogin.Size = new System.Drawing.Size(90, 16);
+            this.lbl_lastLogin.TabIndex = 20;
+            this.lbl_lastLogin.Text = "Ultimo login";
+            // 
+            // lbl_record
+            // 
+            this.lbl_record.AutoSize = true;
+            this.lbl_record.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_record.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_record.Location = new System.Drawing.Point(360, 125);
+            this.lbl_record.Name = "lbl_record";
+            this.lbl_record.Size = new System.Drawing.Size(168, 16);
+            this.lbl_record.TabIndex = 19;
+            this.lbl_record.Text = "Label Maior Pontuação";
+            // 
             // lbn_lastLogin
             // 
             this.lbn_lastLogin.AutoSize = true;
@@ -251,39 +284,6 @@
             this.lbl_ponto4.Size = new System.Drawing.Size(99, 17);
             this.lbl_ponto4.TabIndex = 18;
             // 
-            // lbl_record
-            // 
-            this.lbl_record.AutoSize = true;
-            this.lbl_record.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_record.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_record.Location = new System.Drawing.Point(360, 125);
-            this.lbl_record.Name = "lbl_record";
-            this.lbl_record.Size = new System.Drawing.Size(168, 16);
-            this.lbl_record.TabIndex = 19;
-            this.lbl_record.Text = "Label Maior Pontuação";
-            // 
-            // lbl_lastLogin
-            // 
-            this.lbl_lastLogin.AutoSize = true;
-            this.lbl_lastLogin.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_lastLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_lastLogin.Location = new System.Drawing.Point(360, 151);
-            this.lbl_lastLogin.Name = "lbl_lastLogin";
-            this.lbl_lastLogin.Size = new System.Drawing.Size(90, 16);
-            this.lbl_lastLogin.TabIndex = 20;
-            this.lbl_lastLogin.Text = "Ultimo login";
-            // 
-            // lbl_patent
-            // 
-            this.lbl_patent.AutoSize = true;
-            this.lbl_patent.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_patent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_patent.Location = new System.Drawing.Point(360, 97);
-            this.lbl_patent.Name = "lbl_patent";
-            this.lbl_patent.Size = new System.Drawing.Size(90, 16);
-            this.lbl_patent.TabIndex = 21;
-            this.lbl_patent.Text = "Ultimo login";
-            // 
             // telaRank
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -308,6 +308,7 @@
             this.Name = "telaRank";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rank";
+            this.Load += new System.EventHandler(this.telaRank_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_Dogtag1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

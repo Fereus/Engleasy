@@ -8,7 +8,7 @@ namespace Engleasy
 {
     class Usuario
     {
-       // public static Usuario SessionGame;
+      
         private int _id;
         public int id
         {

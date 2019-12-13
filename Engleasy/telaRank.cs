@@ -75,14 +75,20 @@ namespace Engleasy
             }
            
             lbl_nick.Text = Usuario.SessionGame.username;
+            try{
             lbl_record.Text= dadosGame.getBestPointById(Usuario.SessionGame.id).ToString();
+            }
+            catch
+            {
+                lbl_record.Text = "0";
+            }
             try
             {
                 lbl_lastLogin.Text = reglist[indexReg - 2].registro.ToString();
             }
             catch
             {
-                lbl_lastLogin.Text = reglist[indexReg - 1].registro.ToString();
+                lbl_lastLogin.Text = "Primeiro Login";
             }
           
 
@@ -114,6 +120,11 @@ namespace Engleasy
         }
 
         private void lbn_bestscore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void telaRank_Load(object sender, EventArgs e)
         {
 
         }

@@ -117,7 +117,7 @@ VALUES
 
 ("General de Divisão"),
 
-("General de Divisão"),
+("General de Exercito"),
 
 ("Marechal");
 
@@ -144,7 +144,7 @@ VALUES
 ("shadow","sombra"),
 ("egg","ovo"),
 ("Cell phone","Celular"),
-("crap","armadilha"),
+("trap","armadilha"),
 ("chair","cadeira"),
 ("card","cartao"),
 ("wallet","carteira"),
@@ -159,7 +159,7 @@ VALUES
 ("snake","cobra"),
 ("shirt","camisa"),
 ("cants","calça"),
-("sidewalk","recruta");
+("sidewalk","calçada");
 
 ferreira.jose@ifsp.edu.br
 

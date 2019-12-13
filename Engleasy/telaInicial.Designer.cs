@@ -98,9 +98,9 @@
             this.lbl_confirmaPass.BackColor = System.Drawing.Color.Transparent;
             this.lbl_confirmaPass.Location = new System.Drawing.Point(112, 107);
             this.lbl_confirmaPass.Name = "lbl_confirmaPass";
-            this.lbl_confirmaPass.Size = new System.Drawing.Size(53, 13);
+            this.lbl_confirmaPass.Size = new System.Drawing.Size(51, 13);
             this.lbl_confirmaPass.TabIndex = 19;
-            this.lbl_confirmaPass.Text = "Password";
+            this.lbl_confirmaPass.Text = "Confirmar";
             // 
             // txt_confirmaPass
             // 

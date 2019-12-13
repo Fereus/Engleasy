@@ -50,7 +50,7 @@ namespace Engleasy
             catch (Exception)
             {
 
-                // MessageBox.Show("Senha incorreta");   (APAGAR EMBAIXO E ATIVAR ESSA LINHA)
+               
                 telaJogo t5 = new telaJogo();
                 t5.Show();
                 this.Close();

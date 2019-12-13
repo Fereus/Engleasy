@@ -102,7 +102,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(259, 40);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
             // lbn_Pontos
             // 
@@ -128,7 +128,7 @@
             // 
             // btn_JogarNovamente
             // 
-            this.btn_JogarNovamente.Location = new System.Drawing.Point(808, 420);
+            this.btn_JogarNovamente.Location = new System.Drawing.Point(670, 420);
             this.btn_JogarNovamente.Name = "btn_JogarNovamente";
             this.btn_JogarNovamente.Size = new System.Drawing.Size(101, 30);
             this.btn_JogarNovamente.TabIndex = 10;
